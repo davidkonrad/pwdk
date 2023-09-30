@@ -21,7 +21,7 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/kakao-ceremoni-1.jpg" alt="Kakao ceremoni">
 								<span class="front-box">Samtale-terapi</span>
                 <div class="card-body">
-                  <p class="card-text">At have nogle at tale til kan gøre mirakler. Uformel samtale-terapi på højt fagligt og veluddannet niveau.</p>
+                  <p class="card-text">At have nogle at tale til kan gøre mirakler. Uformel samtale-terapi på højt fagligt og veluddannet niveau</p>
                 </div>
               </a>
             </div>
@@ -30,7 +30,7 @@ include('pages/header.php');
 								<span class="front-box">Klangmassage</span>
                 <img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
                 <div class="card-body">
-                  <p class="card-text">En afslappende massageform, med en stor afspændende effekt på krop og sind</p>
+                  <p class="card-text">En afslappende massageform som virker mere lindrende og afspændende, og som har effekt på krop og sind</p>
                 </div>
               </a>
             </div>
@@ -39,7 +39,7 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/kakao-cermoni-psykoterapi-weidner.jpg" alt="Kakao ceremoni">
 								<span class="front-box">Kakaoceremoni</span>
                 <div class="card-body">
-                  <p class="card-text">En spirituel oplevelse. Hvor kakaoen med dets hjerteåbnende effekt, hjælper dig med at komme i dybere kontakt med dig selv.</p>
+                  <p class="card-text">En spirituel oplevelse. Hvor kakaoen med dets hjerteåbnende effekt, hjælper dig med at komme i dybere kontakt med dig selv</p>
                 </div>
               </a>
             </div>
@@ -49,7 +49,7 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/lydbad1-771x1024.jpg" alt="Lydhealing">
 								<span class="front-box">Lydhealing</span>
                 <div class="card-body">
-                  <p class="card-text">Lydhealing går dybt ind i cellerne, og beroliger og afstresser dit nervesystem.</p>
+                  <p class="card-text">Lydhealing går dybt ind i cellerne, og beroliger og afstresser dit nervesystem</p>
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
@@ -60,7 +60,7 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/20220215_141338-sm.jpg">
 								<span class="front-box">Psykoterapi</span>
                 <div class="card-body">
-                  <p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum. </p>
+                  <p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum</p>
                 </div>
               </a>
             </div>
@@ -69,7 +69,7 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/wnt-e1641314350888.jpg" alt="Walk n'talk">
 								<span class="front-box">Walk n'talk</span>
                 <div class="card-body">
-                  <p class="card-text">Den lidt mere uformelle og afslappede terapiform er mere bekvem for nogle. </p>
+                  <p class="card-text">Den lidt mere uformelle og afslappede terapiform er mere bekvem for nogle</p>
                 </div>
               </a>
             </div>
