@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "route": "404",
+            "include": "pages\/404.html",
+            "title": "Page not found",
+            "meta": ""
+        },
+        {
+            "route": "",
+            "include": "pages/weidner-front.php",
+            "title": "Pernille Weidner",
+            "meta": "Pernille Weidner",
+            "template": "default"
+        },
+        {
+            "route": "about-gawain",
+            "include": "pages\/about-gawain.html",
+            "title": "About Gawain",
+            "meta": "",
+            "template": "default"
+        }
+    ]
+}

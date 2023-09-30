@@ -1,0 +1,19 @@
+{
+	"template": {
+		"name" : "Gawain Admin",
+		"description": "Manage routes, bundles and templates in a GUI tool",
+		"bundles": "Gawain Dialogs",
+		"include": "admin.php",
+		"head": [
+			{
+				"tagtype": "link",
+				"href": "admin.css"
+			},
+			{
+				"tagtype": "script",
+				"src": "admin.js"
+			}
+		],
+		"last": []
+	}
+}

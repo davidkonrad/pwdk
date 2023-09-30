@@ -1,0 +1,92 @@
+{
+    "routes": [
+        {
+            "route": "samtale-terapi",
+            "include": "pages\/samtale-terapi.html",
+            "title": "Samtaleterapi",
+            "meta": "Samtaleterapi",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Samtaleterapi" }
+						]
+        },
+				{
+            "route": "klangmassage",
+            "include": "pages\/klangmassage.html",
+            "title": "Klangmassage",
+            "meta": "klangmassage",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Klangmassage" }
+						]
+        },
+				{
+            "route": "kakao-ceremoni",
+            "include": "pages\/kakao-ceremoni.html",
+            "title": "Kakao ceremoni",
+            "meta": "kakao ceremoni",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Kakao ceremoni" }
+						]
+        },
+				{
+            "route": "lydhealing",
+            "include": "pages\/lydhealing.html",
+            "title": "Lydhealing",
+            "meta": "Lydhealing",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Lydhealing" }
+						]
+        },
+				{
+            "route": "psykoterapi",
+            "include": "pages\/psykoterapi.html",
+            "title": "Psykoterapi",
+            "meta": "Psykoterapi",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Psykoterapi" }
+						]
+        },
+				{
+            "route": "walk'n'talk",
+            "include": "pages\/walkandtalk.html",
+            "title": "Walk n' talk",
+            "meta": "Walk'n'talk",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Walk n' talk" }
+						]
+        },
+				{
+            "route": "om-pernille-weidner",
+            "include": "pages\/om-pernille.html",
+            "title": "Om Pernille Weidner",
+            "meta": "Om Pernille Weidner",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Om Pernille" }
+						]
+        },
+				{
+            "route": "kontakt",
+            "include": "pages\/kontakt.html",
+            "title": "Kontakt",
+            "meta": "Kontakt",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Kontakt" }
+						]
+         }
+    ]
+}

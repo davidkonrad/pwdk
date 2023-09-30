@@ -1,0 +1,19 @@
+{
+	"bundle": {
+            "name": "MaterialUI 0.10.3",
+            "enabled": "false",
+            "head": [
+                {
+                    "tagtype": "link",
+                    "href": "\/\/cdn.muicss.com\/mui-0.10.3\/css\/mui.min.css",
+                    "rel": "stylesheet"
+                },
+                {
+                    "tagtype": "script",
+                    "src": "\/\/cdn.muicss.com\/mui-0.10.3\/js\/mui.min.js"
+                }
+            ]
+        }
+
+}
+

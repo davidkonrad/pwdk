@@ -1,0 +1,23 @@
+{
+	"bundle": {
+		"name": "DataTables 1.10.22",
+		"enabled": "false",
+		"description": "jQuery DataTables with RowReorder plugin",
+		"category": "cdn",
+		"last": [],
+		"head": [
+				{
+					"tagtype": "script",
+					"src": "https://cdn.datatables.net/v/dt/dt-1.10.22/rr-1.2.7/datatables.min.js",
+					"type": "text/javascript"
+				},
+				{
+					"tagtype": "link",
+					"href": "https://cdn.datatables.net/v/dt/dt-1.10.22/rr-1.2.7/datatables.min.css",
+					"type": "text/css",
+					"rel": "stylesheet"
+				}
+			]
+	}
+}
+

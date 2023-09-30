@@ -1,0 +1,22 @@
+{
+	"bundle": {
+            "name": "UIKit 3.5.9",
+            "enabled": "false",
+            "head": [
+                {
+                    "tagtype": "link",
+                    "href": "https:\/\/cdn.jsdelivr.net\/npm\/uikit@3.5.9\/dist\/css\/uikit.min.css",
+                    "rel": "stylesheet"
+                },
+                {
+                    "tagtype": "script",
+                    "src": "https:\/\/cdn.jsdelivr.net\/npm\/uikit@3.5.9\/dist\/js\/uikit.min.js"
+                },
+                {
+                    "tagtype": "script",
+                    "src": "https:\/\/cdn.jsdelivr.net\/npm\/uikit@3.5.9\/dist\/js\/uikit-icons.min.js"
+                }
+            ]
+        }
+}
+

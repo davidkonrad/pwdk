@@ -1,0 +1,7 @@
+{ "template": {
+	"name": "default",
+	"index": "default.php",
+	"description": "Lorem ipsum ..."
+	}
+}
+

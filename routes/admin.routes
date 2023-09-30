@@ -1,0 +1,52 @@
+{
+    "routes": [
+        {
+            "route": "admin-routes",
+            "include": "pages\/admin\/admin-routes.php",
+            "title": "Admin routes",
+            "meta": "Admin routes",
+            "template": "Gawain Admin"
+        },
+        {
+            "route": "admin-routes\/:string",
+            "include": "pages\/admin\/admin-routes.php",
+            "title": "Admin routes",
+            "meta": "Admin rdddoutes",
+            "template": "Gawain Admin"
+        },
+        {
+            "route": "admin-routes\/:string\/:string",
+            "include": "pages\/admin\/admin-routes.php",
+            "title": "Admin routes",
+            "meta": "Admin routes",
+            "template": "Gawain Admin"
+        },
+        {
+            "route": "admin-routes\/:string\/open",
+            "include": "pages\/admin\/admin-routes.php",
+            "title": "Admin routes",
+            "meta": "Admin routes"
+        },
+        {
+            "route": "admin-bundles",
+            "include": "pages\/admin\/admin-bundles.php",
+            "title": "Admin bundles",
+            "template": "Gawain Admin",
+            "meta": "Admin bundles"
+        },
+        {
+            "route": "admin",
+            "include": "",
+            "title": "test",
+            "meta": "",
+            "template": "default"
+        },
+        {
+            "route": "admin-templates",
+            "include": "pages\/admin\/admin-templates.php",
+            "title": "Templates",
+            "meta": "Templates",
+            "template": "Gawain Admin"
+        }
+    ]
+}

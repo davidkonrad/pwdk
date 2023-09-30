@@ -1,0 +1,14 @@
+{
+	"bundle": {
+            "name": "Cirrus 0.6.0",
+            "enabled": "false",
+            "head": [
+                {
+                    "tagtype": "link",
+                    "href": "https:\/\/unpkg.com\/cirrus-ui@0.6.0\/dist\/cirrus.min.css",
+                    "rel": "stylesheet"
+                }
+            ]
+        }
+}
+

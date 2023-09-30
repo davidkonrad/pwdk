@@ -1,0 +1,72 @@
+body {
+	background-color: #ece6dc;
+}
+
+footer {
+  padding-bottom: 3rem;
+}
+
+a.navbar-brand h1 {
+	padding-top: .5rem;
+}
+
+.img-thumbnail {
+	background-color: #ebebeb;
+}
+
+.no-padding-top {
+	padding-top: 0 !important;
+}
+
+.pw-logo {
+	height: 3rem;
+}
+
+.page-header {
+	margin-bottom: 1rem;
+	position: relative;
+	min-height: 150px;
+	max-height: 150px;
+	object-fit: cover;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+
+.page-navbar {
+	padding-left: 0;
+}
+	
+.page-header h1 {
+	padding-top: 2rem;
+	color: #ece6dc;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-weight: bold;
+}
+
+
+.display-1 {
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 1.0;
+}
+
+.display-2 {
+	font-size: 2.75rem;
+	font-weight: 300;
+	line-height: 1.0;
+}
+
+.display-3 {
+	font-size: 2.25rem;
+	font-weight: 300;
+	line-height: 1.0;
+}
+
+.display-4 {
+	font-size: 1.75rem;
+	font-weight: 300;
+	line-height: 1.0;
+}
+
+

@@ -1,0 +1,74 @@
+dialog {
+  background-color: #fff;
+  color: var(--text-color);
+  border: none;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.25);
+	min-width: 15vw;
+  max-width: 90vw;
+	position: absolute;
+	top: 150px;
+}
+
+dialog[open] {
+	animation-name: explode; 
+	animation-duration: .3s; 
+	animation-fill-mode: forwards; 
+} 
+@keyframes explode { 
+	0% { 
+		transform: scale(0); 
+	} 
+	100% { 
+		transform: scale(1); 
+	} 
+} 
+
+dialog span.icon {
+	font-size: 300%;
+	line-height: 100%;
+	margin-right: 15px;
+	float: left;
+	style: inline-block;
+	font-weight: bold;
+}
+
+dialog #dialog-actions {
+	width: 100%;
+	text-align: right;
+	float: right;
+	margin: 6px;
+}
+
+dialog h4 {
+	margin: 0 0 5px 0;
+}
+
+dialog #dialog-message {
+	word-wrap: break-word;
+	margin-top: 0.5em;
+}
+
+dialog input {
+	width: 100%;
+	padding: 6px;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	border: 2px solid #eee; 
+	border-radius: 4px;
+}
+
+dialog textarea:focus,
+dialog input:focus { 
+	outline: none;
+	border-color: seagreen;
+	box-shadow: 0 0 3px forestgreen;
+}
+
+dialog textarea {
+	resize: none;
+}
+
+
+

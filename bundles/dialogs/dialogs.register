@@ -1,0 +1,20 @@
+{
+	"bundle": {
+            "name": "Gawain Dialogs",
+            "enabled": "true",
+						"category": "Gawain",
+						"Common Dialogs for Gawain Admin. Blocking error, confirm, alert and input dialogs based on the HTML5 <dialog> tag. No dependencies, can be used instead of native browser dialogs or libeary modals",
+            "head": [
+                {
+                    "tagtype": "link",
+                    "href": "dialogs\/dialogs.css",
+                    "rel": "stylesheet"
+                },
+                {
+                    "tagtype": "script",
+                    "src": "dialogs\/dialogs.js"
+                }
+            ]
+        }
+}
+

@@ -1,0 +1,47 @@
+{ "templates": [
+		{
+			"name" : "default",
+			"description": "No bundles, no theming - just echo out body content",
+			"include": "default/default.php",
+			"bundles": "",
+			"head": [{
+				"tagtype": "link",
+				"href": "default/default.css"
+			}]
+		},
+		{
+			"name" : "weidner",
+			"description": "Pernille Weidner hjemmeside",
+			"include": "weidner/index.php",
+			"bundles": "",
+			"head": [{
+				"tagtype": "link",
+				"href": "weidner/style.css"
+			}]
+		},
+		{
+			"name" : "weidnerfront",
+			"description": "Pernille Weidner hjemmeside",
+			"include": "weidnerfront/index.php",
+			"bundles": "",
+			"head": [{
+				"tagtype": "link",
+				"href": "weidnerfront/style.css"
+			}]
+		},
+		{
+			"name" : "Gawain Admin",
+			"description": "Manage routes, bundles and templates in a GUI tool",
+			"bundles": "Gawain Dialogs",
+			"include": "admin/admin.php",
+			"head": [{
+				"tagtype": "link",
+				"href": "admin/admin.css"
+			}],
+			"last": [{
+				"tagtype": "script",
+				"src": "admin/admin.js"
+			}]
+		}
+	]
+}
