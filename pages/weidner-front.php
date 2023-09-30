@@ -21,7 +21,7 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/kakao-ceremoni-1.jpg" alt="Kakao ceremoni">
 								<span class="front-box">Samtale-terapi</span>
                 <div class="card-body">
-                  <p class="card-text">At have nogle at tale til kan gøre mirakler. Uformel samtale-terapi på højt fagligt og veluddannet niveau</p>
+                  <p class="card-text">At have nogle at tale <em>med</em> kan gøre mirakler. Uformel samtale-terapi på højt fagligt og veluddannet niveau</p>
                 </div>
               </a>
             </div>

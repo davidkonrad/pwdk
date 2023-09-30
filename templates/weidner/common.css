@@ -1,3 +1,10 @@
+
+.pernille-weidner-logo::hover {
+	transform: rotate(360deg);
+	transition: all 0.3s ease-in-out 0s;
+}
+
+/* pw quote  */
 .quote-card {
   background: #fff;
   padding: 20px;
