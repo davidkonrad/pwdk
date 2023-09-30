@@ -19,18 +19,9 @@ include('pages/header.php');
 				<div class="col-md-4">
               <a class="card mb-4 box-shadow text-muted" href="samtale-terapi">
                 <img class="card-img-top" src="assets/kakao-ceremoni-1.jpg" alt="Kakao ceremoni">
-								<span class="front-box">Samtaleterapi</span>
+								<span class="front-box">Samtale-terapi</span>
                 <div class="card-body">
-                  <p class="card-text">En spirituel oplevelse. Hvor kakaoen med dets hjerteåbnende effekt, hjælper dig med at komme i dybere kontakt med dig selv.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-<!--
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
--->
-                  </div>
+                  <p class="card-text">At have nogle at tale til kan gøre mirakler. Uformel samtale-terapi på højt fagligt og veluddannet niveau.</p>
                 </div>
               </a>
             </div>
@@ -84,7 +75,7 @@ include('pages/header.php');
             </div>
             <div class="col-md-4">
               <a class="card mb-4 box-shadow text-muted" href="psykoterapi">
-                <img class="card-img-top" src="assets/the-shining-still01.webp">
+                <img class="card-img-top" src="assets/20220215_141338-sm.jpg">
 								<span class="front-box">Psykoterapi</span>
                 <div class="card-body">
                   <p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum. </p>
