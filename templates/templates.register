@@ -14,10 +14,16 @@
 			"description": "Pernille Weidner hjemmeside",
 			"include": "weidner/index.php",
 			"bundles": "",
-			"head": [{
-				"tagtype": "link",
-				"href": "weidner/style.css"
-			}]
+			"head": [
+				{
+					"tagtype": "link",
+					"href": "weidner/common.css"
+				},
+				{
+					"tagtype": "link",
+					"href": "weidner/page.css"
+				}
+			]
 		},
 		{
 			"name" : "weidnerfront",

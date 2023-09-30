@@ -87,6 +87,17 @@
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Kontakt" }
 						]
+				},
+				{
+            "route": "anbefalinger",
+            "include": "pages\/anbefalinger.html",
+            "title": "Anbefalinger",
+            "meta": "Anbefalinger",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Anbefalinger" }
+						]
          }
     ]
 }
