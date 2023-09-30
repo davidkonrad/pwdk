@@ -31,15 +31,6 @@ include('pages/header.php');
                 <img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
                 <div class="card-body">
                   <p class="card-text">En afslappende massageform, med en stor afspændende effekt på krop og sind</p>
-                  <div class="d-flex justify-content-between align-items-center">
-<!--
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
--->
-                  </div>
                 </div>
               </a>
             </div>
@@ -49,15 +40,6 @@ include('pages/header.php');
 								<span class="front-box">Kakaoceremoni</span>
                 <div class="card-body">
                   <p class="card-text">En spirituel oplevelse. Hvor kakaoen med dets hjerteåbnende effekt, hjælper dig med at komme i dybere kontakt med dig selv.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-<!--
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
--->
-                  </div>
                 </div>
               </a>
             </div>
@@ -79,15 +61,6 @@ include('pages/header.php');
 								<span class="front-box">Psykoterapi</span>
                 <div class="card-body">
                   <p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum. </p>
-                  <div class="d-flex justify-content-between align-items-center">
-<!--
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
--->
-                  </div>
                 </div>
               </a>
             </div>
@@ -101,15 +74,7 @@ include('pages/header.php');
               </a>
             </div>
 
-          <div class="row">
-						<p>
-							<!--
-								Her måske smøren om holistisk psykoterapi ???
-							-->
-						</p>
 					</div>
-
-          </div>
         </div>
       </div>
 
