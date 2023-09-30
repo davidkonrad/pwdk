@@ -1,5 +1,5 @@
 <?php
-include('pages/header.html');
+include('pages/header.php');
 ?>
 <main role="main">
 	<section class="jumbotron text-center">
