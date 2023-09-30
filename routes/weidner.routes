@@ -3,12 +3,12 @@
         {
             "route": "samtale-terapi",
             "include": "pages\/samtale-terapi.html",
-            "title": "Samtaleterapi",
-            "meta": "Samtaleterapi",
+            "title": "Samtale-terapi",
+            "meta": "Samtale-terapi",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
-							{ "header": "Samtaleterapi" }
+							{ "header": "Samtale-terapi" }
 						]
         },
 				{

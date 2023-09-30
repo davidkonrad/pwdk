@@ -17,7 +17,7 @@ include('pages/header.php');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-              <a class="card mb-4 box-shadow text-muted XXtext-decoration-none" href="samtale-terapi">
+              <a class="card mb-4 box-shadow text-muted" href="samtale-terapi">
                 <img class="card-img-top" src="assets/kakao-ceremoni-1.jpg" alt="Kakao ceremoni">
 								<span class="front-box">Samtaleterapi</span>
                 <div class="card-body">
@@ -103,18 +103,9 @@ include('pages/header.php');
             <div class="col-md-4">
               <a class="card mb-4 box-shadow text-muted" href="walk'n'talk">
                 <img class="card-img-top" src="assets/wnt-e1641314350888.jpg" alt="Walk n'talk">
-								<span class="front-box">walk'n'talk</span>
+								<span class="front-box">Walk n'talk</span>
                 <div class="card-body">
                   <p class="card-text">Den lidt mere uformelle og afslappede terapiform er mere bekvem for nogle. </p>
-                  <div class="d-flex justify-content-between align-items-center">
-<!--
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
--->
-                  </div>
                 </div>
               </a>
             </div>
