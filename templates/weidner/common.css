@@ -15,6 +15,9 @@ h1, h2, h3, h3, h5 {
 }
 
 /*magnific */
+figure {
+	cursor: zoom-in;
+}
 .mfp-bg {
 	background: #ebebeb;
 	opacity: 0.6;

@@ -37,7 +37,7 @@
             "route": "lydhealing",
             "include": "pages\/lydhealing.html",
             "title": "Lydhealing",
-            "meta": "Lydhealing",
+            "meta": "En lydhealingssession kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig.",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },

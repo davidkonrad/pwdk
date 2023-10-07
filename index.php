@@ -12,11 +12,13 @@ include 'lib/Gawain.php';
 <link rel="manifest" href="site.webmanifest">
 <base href="<?php echo $App->baseName();?>" /> 
 <title><?php echo $App->title(); ?></title>
-<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 <meta name="description" content="<?php echo $App->meta(); ?>">
+<!--
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Finlandica&family=Josefin+Sans&family=Marcellus&display=swap" rel="stylesheet">
+-->
+<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/bs46/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/magnific/magnific-popup.css">
 <?php $App->renderBundles(); ?>
