@@ -15,7 +15,7 @@
             "route": "klangmassage",
             "include": "pages\/klangmassage.html",
             "title": "Klangmassage",
-            "meta": "klangmassage",
+            "meta": "Klangmassage er en blid massageform, hvor klangskålene bruges både direkte og indirekte på kroppen. Medfører virkelig afslapning og stressreduktion, harmonisering af kroppens celler og frigivelse af spændinger i kroppen",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
