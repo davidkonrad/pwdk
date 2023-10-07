@@ -82,7 +82,7 @@
             "route": "kontakt",
             "include": "pages\/kontakt.html",
             "title": "Kontakt",
-            "meta": "Kontakt",
+            "meta": "Kontakt, virksomhedsinfo, sociale medier, priser. Oplev en klangmassage eller kakao-ceremoni, du kommer aldrig til at fortryde det",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
