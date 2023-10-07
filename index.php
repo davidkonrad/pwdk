@@ -18,6 +18,7 @@ include 'lib/Gawain.php';
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Finlandica&family=Josefin+Sans&family=Marcellus&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="bundles/bs46/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bundles/magnific/magnific-popup.css">
 <?php $App->renderBundles(); ?>
 </head>
 <body>
@@ -27,6 +28,8 @@ $App->renderBundlesLast();
 ?>
 <script src="bundles/jquery-3.7.0.slim.min.js"></script>
 <script src="bundles/bs46/js/bootstrap.min.js"></script>
+<script src="bundles/magnific/jquery.magnific-popup.min.js"></script>
+<script src="bundles/pwdk.js"></script>
 </body>
 </html>
 

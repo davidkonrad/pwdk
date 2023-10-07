@@ -1,7 +1,16 @@
-
 .pernille-weidner-logo::hover {
 	transform: rotate(360deg);
 	transition: all 0.3s ease-in-out 0s;
+}
+
+/*magnific */
+.mfp-bg {
+	background: #ebebeb;
+	opacity: 0.6;
+}
+img.mfp-img {
+	padding-bottom: 32px;
+	margin-left: -1px;
 }
 
 /* pw quote  */
