@@ -16,6 +16,7 @@ include('pages/header.php');
 	<div class="py-5">
 		<div class="container">
 			<div class="row">
+<!--
 				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="samtale-terapi" aria-label="Læs mere om samtale-terapi">
 						<img class="card-img-top" src="assets/kakao-ceremoni-sm.jpg" alt="Kakao ceremoni">
@@ -25,7 +26,8 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4">
+-->
+				<div class="col-md-6">
 					<a class="card mb-4 box-shadow text-muted" href="klangmassage" aria-label="Læs mere om klangmassage">
 						<span class="front-box">Klangmassage</span>
 						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
@@ -34,7 +36,7 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<a class="card mb-4 box-shadow text-muted" href="kakao-ceremoni" aria-label="Læs mere om kakao-ceremonier">
 						<img class="card-img-top" src="assets/kakao-ceremoni-sm.jpg" alt="Kakao ceremoni">
 						<span class="front-box">Kakaoceremoni</span>
@@ -43,7 +45,7 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<a class="card mb-4 box-shadow text-muted" href="lydhealing" aria-label="Læs mere om Lydhealing">
 						<img class="card-img-top" src="assets/lydbad1-480x300.jpg" alt="Lydhealing">
 						<span class="front-box">Lydhealing</span>
@@ -52,7 +54,7 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <a class="card mb-4 box-shadow text-muted" href="psykoterapi">
                 <img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
 								<span class="front-box">Psykoterapi</span>
@@ -61,6 +63,7 @@ include('pages/header.php');
                 </div>
               </a>
             </div>
+<!--
             <div class="col-md-4">
               <a class="card mb-4 box-shadow text-muted" href="walk'n'talk">
                 <img class="card-img-top" src="assets/wnt-e1641314350888.jpg" alt="Walk n'talk">
@@ -70,7 +73,7 @@ include('pages/header.php');
                 </div>
               </a>
             </div>
-
+-->
 					</div>
         </div>
       </div>
