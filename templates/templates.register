@@ -4,10 +4,16 @@
 			"description": "No bundles, no theming - just echo out body content",
 			"include": "default/default.php",
 			"bundles": "",
-			"head": [{
-				"tagtype": "link",
-				"href": "default/default.css"
-			}]
+			"head": [
+				{
+					"tagtype": "link",
+					"href": "weidner/common.css"
+				},
+				{
+					"tagtype": "link",
+					"href": "default/default.css"
+				}
+			]
 		},
 		{
 			"name" : "weidner",

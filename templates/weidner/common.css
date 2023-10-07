@@ -1,6 +1,17 @@
-.pernille-weidner-logo::hover {
-	transform: rotate(360deg);
-	transition: all 0.3s ease-in-out 0s;
+/*
+h1, h2, h3, h3, h5 {
+	font-family: 'Marcellus', serif;
+}
+*/
+
+.pernille-weidner-logo {
+  transition: transform 1s ease-in-out;
+	position:relative;
+	height:3rem;
+	top:-.2rem;
+}
+.pernille-weidner-logo:hover {
+	transform: rotate(140deg);
 }
 
 /*magnific */

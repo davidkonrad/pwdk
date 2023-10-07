@@ -14,14 +14,14 @@ klangmassage behandler og klangaktør <a href="om-pernille-weidner" class="text-
 					<ul class="list-unstyled">
 						<li>
 							<strong class="fa fa-instagram fa-fw text-muted"></strong>
-							<a href="https://instagram.com/pernilleweidner_firmaprofil" class="text-dark" title="Lydhealing🎶💗klangmassage🎵😌gong terapi✨Klangmeditation🌟✨Psykoterapi🪷Cacao ceremonier🍃💗Plantemedicinske rejser🌿🌱">Instagram</a>
+							<a href="https://instagram.com/pernilleweidner_firmaprofil" class="text-dark" title="Lydhealing🎶💗klangmassage🎵😌gong terapi✨Klangmeditation🌟✨Psykoterapi🪷Cacao ceremonier🍃💗Plantemedicinske rejser🌿🌱" aria-label="Følg Pernille Weidner på Instagram">Instagram</a>
 						</li>
 						<li>
 							<strong class="fa fa-facebook fa-fw"></strong>
-							<a href="https://facebook.com/groups/1391458601057676" class="text-dark" title="Følg Pernilles cacao og lydunivers🍀🎶">Facebook</a></li>
+							<a href="https://facebook.com/groups/1391458601057676" class="text-dark" title="Følg Pernilles cacao og lydunivers🍀🎶" aria-label="Følg Pernille Weidner på Facebook">Facebook</a></li>
 						<li>
 							<strong class="fa fa-phone-square fa-fw"></strong>
-							<a href="tel:26814034" class="text-dark">(+45) 26 81 40 34</a>
+							<a href="tel:26814034" class="text-dark" title="Klik / tap for at ringe op ..." aria-label="Ring til Pernille Weidner">(+45) 26 81 40 34</a>
 						</li>
 					</ul>
 				</div>
@@ -29,13 +29,13 @@ klangmassage behandler og klangaktør <a href="om-pernille-weidner" class="text-
 		</div>
 	</div>
 	<div class="navbar navbar-light box-shadow page-navbar">
-		<div class="container d-flex XXjustify-content-between">
+		<div class="container d-flex">
 <?php
 echo $this->isLocalHost() 
 	? '<a href="#" class="navbar-brand d-flex align-items-start">'
 	: '<a href="/" class="navbar-brand d-flex align-items-start">';
 ?>
-				<img class="" src="assets/pernille-weidner.png" style="position:relative;height:3rem;top:-.2rem;">
+				<img class="pernille-weidner-logo" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
 				<h1 class="display-4">Pernille Weidner</h1>
 			</a>
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
