@@ -18,16 +18,6 @@ include('pages/header.php');
 			<div class="row">
 <!--
 				<div class="col-md-4">
-					<a class="card mb-4 box-shadow text-muted" href="samtale-terapi" aria-label="Læs mere om samtale-terapi">
-						<img class="card-img-top" src="assets/kakao-ceremoni-sm.jpg" alt="Kakao ceremoni">
-						<span class="front-box">Samtale-terapi</span>
-						<div class="card-body">
-							<p class="card-text">At have nogle at tale <em>med</em> kan gøre mirakler. Uformel samtale-terapi på højt fagligt og veluddannet niveau</p>
-						</div>
-					</a>
-				</div>
--->
-				<div class="col-md-6">
 					<a class="card mb-4 box-shadow text-muted" href="klangmassage" aria-label="Læs mere om klangmassage">
 						<span class="front-box">Klangmassage</span>
 						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
@@ -36,7 +26,8 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6">
+-->
+				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="kakao-ceremoni" aria-label="Læs mere om kakao-ceremonier">
 						<img class="card-img-top" src="assets/kakao-ceremoni-sm.jpg" alt="Kakao ceremoni">
 						<span class="front-box">Kakao-ceremoni</span>
@@ -45,7 +36,7 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="lydhealing" aria-label="Læs mere om Lydhealing">
 						<img class="card-img-top" src="assets/lydbad1-480x300.jpg" alt="Lydhealing">
 						<span class="front-box">Lydhealing</span>
@@ -54,7 +45,7 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
 						<img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
 						<span class="front-box">Psykoterapi</span>
@@ -82,7 +73,7 @@ include('pages/header.php');
 						<span class="front-box">Gongterapi</span>
 						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
 						<div class="card-body">
-							<p class="card-text">...</p>
+							<p class="card-text small">Gong-terapi er en unik og berigende oplevelse, der trækker på kraften af ​​lyde og vibrationer for at fremme helbredelse og velvære.</p>
 						</div>
 					</a>
 				</div>
@@ -100,7 +91,7 @@ include('pages/header.php');
 						<span class="front-box">Klangmeditation</span>
 						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="klangmeditation">
 						<div class="card-body">
-							<p class="card-text">...</p>
+							<p class="card-text small">Vi bruger forskellige lydkilder, såsom klangskåle og gonger, der påvirker kroppens energibaner</p>
 						</div>
 					</a>
 				</div>

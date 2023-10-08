@@ -99,7 +99,7 @@
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Anbefalinger" }
 						]
-         },
+        },
 				{
             "route": "klangmeditation",
             "include": "pages\/klangmeditation.html",
@@ -109,6 +109,17 @@
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Klangmeditation" }
+						]
+        },
+				{
+            "route": "gongterapi",
+            "include": "pages\/gongterapi.html",
+            "title": "Gongterapi",
+            "meta": "Gong-terapi er en unik og berigende oplevelse, der trækker på kraften af ​​lyde og vibrationer for at fremme helbredelse og velvære.",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Gongterapi" }
 						]
          }
     ]
