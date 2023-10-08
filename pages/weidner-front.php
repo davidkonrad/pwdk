@@ -64,7 +64,7 @@ include('pages/header.php');
 						<span class="front-box">Klangmassage</span>
 						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
 						<div class="card-body">
-							<p class="card-text">...</p>
+							<p class="card-text small">En afslappende massageform som virker lindrende og afspændende, og som har effekt på krop og sind</p>
 						</div>
 					</a>
 				</div>
@@ -82,7 +82,7 @@ include('pages/header.php');
 						<span class="front-box">Gongbad</span>
 						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Gongbad">
 						<div class="card-body">
-							<p class="card-text">...</p>
+							<p class="card-text small">Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst.</p>
 						</div>
 					</a>
 				</div>

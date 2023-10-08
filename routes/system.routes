@@ -3,8 +3,9 @@
         {
             "route": "404",
             "include": "pages\/404.html",
-            "title": "Page not found",
-            "meta": ""
+            "title": "Siden blev ikke fundet",
+            "meta": "",
+            "template": "weidner"
         },
         {
             "route": "",
