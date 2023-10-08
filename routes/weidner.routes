@@ -99,6 +99,17 @@
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Anbefalinger" }
 						]
+         },
+				{
+            "route": "klangmeditation",
+            "include": "pages\/klangmeditation.html",
+            "title": "Klangmeditation",
+            "meta": "Formålet med klangmeditation er at skabe en atmosfære af dyb afslapning. Lydene anses for at have beroligende virkninger, der kan hjælpe med at reducere stress, angst og spændinger.",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Klangmeditation" }
+						]
          }
     ]
 }
