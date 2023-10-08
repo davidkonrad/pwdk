@@ -64,7 +64,8 @@ a.navbar-brand h1 {
 span.front-box {
 	font-size: x-large;
 	font-weight: bold;
-	color: #fff;
+	XXcolor: #fff;
+	color: #ece6dc;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	position: absolute;
 	right: 1rem;

@@ -1,7 +1,16 @@
 "use strict";
 
 const PW = (function(window, document) {
+	const gebi = (id) => { return document.getElementById(id) }
+
 	const init = function() {
+		gebi('footer-logo').onclick = function() {
+			window.scroll({top: 0, left: 0, behavior: 'smooth'});
+		}			
+		initMP()
+	}
+
+	const initMP = function() {
 		if (!$.magnificPopup) return				
 		$('figure > img').magnificPopup({
 			type: 'image',

@@ -28,6 +28,15 @@ include('pages/header.php');
 				</div>
 -->
 				<div class="col-md-4">
+					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
+						<img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
+						<span class="front-box">Psykoterapi</span>
+						<div class="card-body">
+							<p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="kakao-ceremoni" aria-label="Læs mere om kakao-ceremonier">
 						<img class="card-img-top" src="assets/kakao-ceremoni-sm.jpg" alt="Kakao ceremoni">
 						<span class="front-box">Kakao-ceremoni</span>
@@ -42,15 +51,6 @@ include('pages/header.php');
 						<span class="front-box">Lydhealing</span>
 						<div class="card-body">
 							<p class="card-text">Lydhealing går dybt ind i cellerne, og beroliger og afstresser dit nervesystem</p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4">
-					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
-						<img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
-						<span class="front-box">Psykoterapi</span>
-						<div class="card-body">
-							<p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum</p>
 						</div>
 					</a>
 				</div>
