@@ -54,31 +54,60 @@ include('pages/header.php');
 						</div>
 					</a>
 				</div>
-            <div class="col-md-6">
-              <a class="card mb-4 box-shadow text-muted" href="psykoterapi">
-                <img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
-								<span class="front-box">Psykoterapi</span>
-                <div class="card-body">
-                  <p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum</p>
-                </div>
-              </a>
-            </div>
-<!--
-            <div class="col-md-4">
-              <a class="card mb-4 box-shadow text-muted" href="walk'n'talk">
-                <img class="card-img-top" src="assets/wnt-e1641314350888.jpg" alt="Walk n'talk">
-								<span class="front-box">Walk n'talk</span>
-                <div class="card-body">
-                  <p class="card-text">Den lidt mere uformelle og afslappede terapiform er mere bekvem for nogle</p>
-                </div>
-              </a>
-            </div>
--->
-					</div>
-        </div>
-      </div>
-
-    </main>
+				<div class="col-md-6">
+					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
+						<img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
+						<span class="front-box">Psykoterapi</span>
+						<div class="card-body">
+							<p class="card-text">Psykoterapi er samtaleterapi, hvor vi sidder sammen, overfor hinanden i mit hyggelige terapirum</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<h2 class="display-4">Lydhealing</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<a class="card mb-4 box-shadow text-muted" href="klangmassage" aria-label="Læs mere om klangmassage">
+						<span class="front-box">Klangmassage</span>
+						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
+						<div class="card-body">
+							<p class="card-text">...</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a class="card mb-4 box-shadow text-muted" href="gongterapi" aria-label="Læs mere om gong-terapi">
+						<span class="front-box">Gongterapi</span>
+						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
+						<div class="card-body">
+							<p class="card-text">...</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a class="card mb-4 box-shadow text-muted" href="gongbad" aria-label="Læs mere om gong-bade">
+						<span class="front-box">Gongbad</span>
+						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Gongbad">
+						<div class="card-body">
+							<p class="card-text">...</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a class="card mb-4 box-shadow text-muted" href="klangmeditation" aria-label="Læs mere om klangmeditation">
+						<span class="front-box">Klangmeditation</span>
+						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="klangmeditation">
+						<div class="card-body">
+							<p class="card-text">...</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
 
 <?php
 include('pages/footer.html');
