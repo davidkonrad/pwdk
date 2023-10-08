@@ -56,7 +56,9 @@ include('pages/header.php');
 				</div>
 			</div>
 			<div class="row">
-				<h2 class="display-4">Lydhealing</h2>
+<!--
+				<h2 class="display-4 mx-auto">Lydhealing</h2>
+-->
 			</div>
 			<div class="row">
 				<div class="col-md-3">
