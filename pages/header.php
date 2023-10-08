@@ -13,7 +13,7 @@ klangmassage behandler og klangaktør <a href="om-pernille-weidner" class="text-
 				<div class="col-sm-4 offset-md-1 py-4">
 					<ul class="list-unstyled">
 						<li>
-							<strong class="fa fa-instagram fa-fw text-muted"></strong>
+							<strong class="fa fa-instagram fa-fw text-dark"></strong>
 							<a href="https://instagram.com/pernilleweidner_firmaprofil" class="text-dark" title="Lydhealing🎶💗klangmassage🎵😌gong terapi✨Klangmeditation🌟✨Psykoterapi🪷Cacao ceremonier🍃💗Plantemedicinske rejser🌿🌱" aria-label="Følg Pernille Weidner på Instagram">Instagram</a>
 						</li>
 						<li>

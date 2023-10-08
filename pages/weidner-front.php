@@ -4,7 +4,7 @@ include('pages/header.php');
 <main role="main">
 	<section class="jumbotron text-center">
 		<div class="container">
-			<h1 class="jumbotron-heading">Psykoterapi og klangmassage</h1>
+			<h1 class="jumbotron-heading">Psykoterapi og Lydhealing</h1>
 			<p class="lead text-muted"></p>
 			<p>
 				<a class="btn btn-primary my-2" href="om-pernille-weidner" aria-label="Læs mere om Pernille Weidner">Om Pernille Weidner</a>
@@ -39,7 +39,7 @@ include('pages/header.php');
 				<div class="col-md-6">
 					<a class="card mb-4 box-shadow text-muted" href="kakao-ceremoni" aria-label="Læs mere om kakao-ceremonier">
 						<img class="card-img-top" src="assets/kakao-ceremoni-sm.jpg" alt="Kakao ceremoni">
-						<span class="front-box">Kakaoceremoni</span>
+						<span class="front-box">Kakao-ceremoni</span>
 						<div class="card-body">
 							<p class="card-text">En spirituel oplevelse. Hvor kakaoen med dets hjerteåbnende effekt, hjælper dig med at komme i dybere kontakt med dig selv</p>
 						</div>
