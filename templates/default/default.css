@@ -66,7 +66,8 @@ span.front-box {
 	font-weight: bold;
 	XXcolor: #fff;
 	color: #ece6dc;
-	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	XXtext-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	text-shadow: 1px 1px 2px rgba(0,0,0, 0.85);
 	position: absolute;
 	right: 1rem;
 	top: 0px;

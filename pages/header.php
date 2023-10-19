@@ -29,16 +29,16 @@ klangmassage behandler og klangaktør <a href="om-pernille-weidner" class="text-
 		</div>
 	</div>
 	<div class="navbar navbar-light box-shadow page-navbar">
-		<div class="container d-flex">
+		<div class="container d-flex justify-content-between XXalign-items-start">
 <?php
 echo $this->isLocalHost() 
-	? '<a href="#" class="navbar-brand d-flex align-items-start">'
-	: '<a href="/" class="navbar-brand d-flex align-items-start">';
+	? '<a href="#" class="navbar-brand Xd-flex Xalign-items-start">'
+	: '<a href="/" class="navbar-brand Xd-flex Xalign-items-start">';
 ?>
 				<img class="pernille-weidner-logo" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
-				<h1 class="display-4">Pernille Weidner</h1>
+				<h1 class="display-4 d-inline">Pernille Weidner</h1>
 			</a>
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Kort om Pernille Weidner">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 		</div>
