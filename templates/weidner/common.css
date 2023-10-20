@@ -51,6 +51,10 @@ p {
 	font-size: 1.2rem;
 	color: #82714e;
 }	
+.dropdown-menu a .disabled {
+	color: silver;
+	cursor: not-allowed;
+}
 
 nav .navbar-nav li a {
 	color: #82714e !important;
