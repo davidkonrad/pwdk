@@ -112,7 +112,7 @@
 						]
         },
 				{
-            "route": "gongterapi",
+            "route": "gong-terapi",
             "include": "pages\/gongterapi.html",
             "title": "Gongterapi",
             "meta": "Gong-terapi er en unik og berigende oplevelse, der trækker på kraften af ​​lyde og vibrationer for at fremme helbredelse og velvære.",

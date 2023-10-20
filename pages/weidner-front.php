@@ -55,12 +55,11 @@
 						Gong
 					</a>
 					<div class="dropdown-menu" aria-labelledby="gong-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="gong-terapi">Gong terapi</a>
+						<a class="dropdown-item" href="gong-terapi" title="Den kraftfulde lyd fra gongerne, kombineret med deres dybe vibrationer, indbyder til en unik og transformerende oplevelse">Gong terapi</a>
 						<a class="dropdown-item" href="gong-bad" title="">Gong bad</a>
 						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
 					</div>
 				</li>
-
 				<li class="nav-item dropdown">
 					<a class="nav-link" href="#" id="klanghealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Klang
@@ -77,36 +76,9 @@
 		</div>
 	</nav>
 
-<!--
-	<section class="jumbotron text-center">
-		<div class="container">
-			<h1 class="jumbotron-heading">Psykoterapi og Lydhealing</h1>
-			<p class="lead text-muted"></p>
-			<p>
-				<a class="btn btn-primary my-2" href="om-pernille-weidner" aria-label="Læs mere om Pernille Weidner">Om Pernille Weidner</a>
-				<a class="btn btn-secondary my-2" href="kontakt" aria-label="Kontakt Pernille Weidner">Kontakt</a>
-			</p>
-		</div>
-	</section>
--->
-
 	<div class="py-3">
 		<div class="container">
 			<div class="row text-center p-3">
-
-<!--
-				<div class="col-md-4">
-					<a class="card mb-4 box-shadow text-muted" href="klangmassage" aria-label="Læs mere om klangmassage">
-						<span class="front-box">Klangmassage</span>
-						<img class="card-img-top" src="assets/klang-massage2.jpg" alt="Klangmassage">
-						<div class="card-body">
-							<p class="card-text">En afslappende massageform som virker mere lindrende og afspændende, og som har effekt på krop og sind</p>
-						</div>
-					</a>
-				</div>
--->
-
-				<p class="mx-auto text-weidner h2 display-2">Du kan heale dit hjerte med klang</p>
 				<p>
 					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, 
 					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. 
