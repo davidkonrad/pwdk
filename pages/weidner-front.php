@@ -56,7 +56,7 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="gong-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="gong-terapi" title="Den kraftfulde lyd fra gongerne, kombineret med deres dybe vibrationer, indbyder til en unik og transformerende oplevelse">Gong terapi</a>
-						<a class="dropdown-item" href="gong-bad" title="">Gong bad</a>
+						<a class="dropdown-item" href="gong-bad" title="Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst">Gong bad</a>
 						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
 					</div>
 				</li>
