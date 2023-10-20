@@ -4,10 +4,10 @@ include('pages/header.php');
 
 <?php
 	echo '<header class="page-header" style="background: url('.$this->getProp('image').');">';
-	echo '<h1 class="display-2">'.$this->getProp('header').'</h1>';
+	echo '<h1 class="display-0">'.$this->getProp('header').'</h1>';
 	echo '</header>';
 ?>
- <main role="main">
+ <main class="mx-auto" role="main" style="background-color:#ece6dc;">
 	<div class="py-1">
 		<div class="container">
 			<div class="row d-block ml-1 mr-1">

@@ -73,13 +73,19 @@ span.front-box {
 	top: 0px;
 }
 
+/* card */
 a.card {
+	text-align: left;
+	line-height: 1.1;
 	text-decoration: none !important;
 }
-
 a p.card-text:hover {
 	color: #000;
 }
+a.card .card-body {
+	padding: .5rem;
+}
+
 
 .page-image {
 	position: absolute;

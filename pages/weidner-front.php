@@ -15,8 +15,22 @@
 				<li class="nav-item active">
 					<a class="nav-link" href="#"Hjem <span class="sr-only">Hjem</span></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="klanghealing">Klang Healing</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="klanghealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Klang Healing
+					</a>
+					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown">
+						<a class="dropdown-item" href="hvad-er-lydhealing">Hvad er lydhealing</a>
+						<a class="dropdown-item" href="lydhealing">Lydhealing</a>
+						<a class="dropdown-item" href="Lydhealing-børn">Lydhealing børn</a>
+						<a class="dropdown-item" href="Lydhealing-stress">Lydhealing stress</a>
+						<a class="dropdown-item" href="Lydhealing-angst">Lydhealing angst</a>
+						<a class="dropdown-item" href="Klangmassage">Klangmassage</a>
+						<a class="dropdown-item" href="Klangmeditation">Klangmeditation</a>
+						<a class="dropdown-item" href="gong-terapi">Gong terapi</a>
+						<a class="dropdown-item" href="gong-bad">Gong bad</a>
+						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
+					</div>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Sessioner</a>
@@ -24,18 +38,10 @@
 				<li class="nav-item">
 					<a class="nav-link" href="om-pernille-weidner">Om mig</a>
 				</li>
-<!--
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown link
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				</li>
--->
+
+
+
+
 			</ul>
 		</div>
 	</nav>
@@ -53,9 +59,10 @@
 	</section>
 -->
 
-	<div class="py-5">
+	<div class="py-3">
 		<div class="container">
 			<div class="row text-center p-3">
+
 <!--
 				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="klangmassage" aria-label="Læs mere om klangmassage">
@@ -67,9 +74,18 @@
 					</a>
 				</div>
 -->
-				<h2 class="text-weidner">Du kan heale dit hjerte med klang</h2>
+
+				<p class="mx-auto text-weidner h2 display-2">Du kan heale dit hjerte med klang</p>
 				<p>
-					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. Jeg tror på at vejen til denne ro, begynder med at forstå os selv dybere, både vores tanker og vores følelser. Her bruger jeg bruger psykoterapien til at hjælpe dig til større selvreflektion og selvindsigt. Lydhealing bruger jeg til at skabe dyb ro i krop og sind, dette kan både være i kombination med psykoterapien, men kan også stå alene. Disse metoder vil lære dig at navigere i livets udfordringer, med større lethed og tilstedeværelse. 
+					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, 
+					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. 
+				</p>
+				<p>
+					Jeg tror på at vejen til denne ro, begynder med at forstå os selv dybere, både vores tanker og vores følelser. 
+					Her bruger jeg bruger psykoterapien til at hjælpe dig til større selvreflektion og selvindsigt. 
+				</p>
+				<p>
+					Lydhealing bruger jeg til at skabe dyb ro i krop og sind, dette kan både være i kombination med psykoterapien, men kan også stå alene. Disse metoder vil lære dig at navigere i livets udfordringer, med større lethed og tilstedeværelse. 
 				</p>
 				<p>
 					Det giver mig en dyb følelse af glæde og meningsfuldhed, at guide andre på denne rejse mod indre ro. Det er fantastisk at se folk opdage deres egne ressourcer, selv når verden omkring os kan virke kaotisk. 
@@ -77,6 +93,8 @@
 				<p>
 					Jeg vil glæde mig til, sammen med dig, at udforske veje til indre fred, og jeg ser meget frem til at hjælpe dig på din rejse.
 				</p>
+
+				<hr>
 
 				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
