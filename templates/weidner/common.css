@@ -14,17 +14,22 @@
 	font-family: arsenal-bold;
 	src: url(../../assets/fonts/Arsenal/Arsenal-Bold.ttf);
 }
+@font-face {
+	font-family: albert;
+	src: url(../../assets/fonts/Albert/AlbertSans-VariableFont_wght.ttf);
+}
 
 
-h1, h2,h3,h4,h5,
-.display-1, .display-2, .display-3, .display-4 {
+h1, h2, h3, h4, h5, .display-1, .display-2, .display-3, .display-4 {
 	font-family: tangerine-bold;
-	XXXfont-family: 'Lobster Two', cursive;
-	XXXcolor : darkslategray;
 }
 
 p {
-	XXXfont-family: 'Josefin Sans';
+	font-family: albert;
+}
+
+.text-weidner {
+	color: #82714e;
 }
 
 /* ny header */
@@ -57,7 +62,6 @@ nav .navbar-nav li.active a {
 nav .navbar-nav a:hover {
 	opacity: 1;
 }	
-
 
 
 /* navbar */
@@ -202,7 +206,11 @@ img.mfp-img {
   color: #FBC02D;
 }
 
-/* ny main ?? */
+/* ny main */
+main {
+	background-color: #fff;
+}
+
 @media (min-width: 576px) { 
 	main {
 		width : 300px;

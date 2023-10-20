@@ -55,7 +55,7 @@
 
 	<div class="py-5">
 		<div class="container">
-			<div class="row">
+			<div class="row text-center p-3">
 <!--
 				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="klangmassage" aria-label="Læs mere om klangmassage">
@@ -67,7 +67,7 @@
 					</a>
 				</div>
 -->
-				<h2 class="text-center">Du kan heale dit hjerte med klang</h2>
+				<h2 class="text-weidner">Du kan heale dit hjerte med klang</h2>
 				<p>
 					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. Jeg tror på at vejen til denne ro, begynder med at forstå os selv dybere, både vores tanker og vores følelser. Her bruger jeg bruger psykoterapien til at hjælpe dig til større selvreflektion og selvindsigt. Lydhealing bruger jeg til at skabe dyb ro i krop og sind, dette kan både være i kombination med psykoterapien, men kan også stå alene. Disse metoder vil lære dig at navigere i livets udfordringer, med større lethed og tilstedeværelse. 
 				</p>
