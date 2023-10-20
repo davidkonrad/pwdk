@@ -78,7 +78,10 @@
 
 	<div class="py-3">
 		<div class="container">
-			<div class="row text-center p-3">
+			<div class="Xrow p-3">
+				<figure class="float-right ml-sm-4">
+					<img src="images/klang-massage-forberedelse-xs.jpg" data-mfp-src="images/klang-massage-forberedelse-lg.jpg" class="img-thumbnail" alt="Lydhealing restituerer kroppen, og giver sjælen ro og nærvær">
+				</figure>
 				<p>
 					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, 
 					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. 
@@ -98,7 +101,7 @@
 				</p>
 
 				<hr>
-
+<!--
 				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
 						<img class="card-img-top" src="assets/20220215_141338-sm.jpg" alt="Psykoterapi">
@@ -128,9 +131,6 @@
 				</div>
 			</div>
 			<div class="row">
-<!--
-				<h2 class="display-4 mx-auto">Lydhealing</h2>
--->
 			</div>
 			<div class="row">
 				<div class="col-md-3">
@@ -170,6 +170,7 @@
 					</a>
 				</div>
 			</div>
+-->
 		</div>
 	</div>
 </main>
