@@ -13,7 +13,7 @@
 					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item">
-					<img src="images/lydhealing-md.jpg" class="d-block w-100" alt="...">
+					<img src="images/klangmassage-ryg-carousel.jpg" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item">
 					<img src="images/gong-helstørrelse-md.jpg" class="d-block w-100" alt="...">
