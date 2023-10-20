@@ -154,6 +154,17 @@
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Lydhealing og børn" }
 						]
+        },
+				{
+            "route": "lydhealing-stress-og-angst",
+            "include": "pages\/lydhealing-stress.html",
+            "title": "Lydhealing, stress og angst",
+            "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Lydhealing, stress og angst" }
+						]
          }
     ]
 }

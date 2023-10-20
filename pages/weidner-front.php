@@ -46,15 +46,14 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="hvad-er-lydhealing" title="Læs mere om hvad Lydhealing er">Hvad er lydhealing</a>
-						<a class="dropdown-item disabled" href="lydhealing">Lydhealing</a>
+						<a class="dropdown-item" href="lydhealing" title="Grundlæggende metodik og virkning">Lydhealing</a>
 						<a class="dropdown-item" href="Lydhealing-og-børn" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing og børn</a>
-						<a class="dropdown-item" href="Lydhealing-stress" class="disabled">Lydhealing stress</a>
-						<a class="dropdown-item" href="Lydhealing-angst" class="disabled">Lydhealing angst</a>
-						<a class="dropdown-item" href="Klangmassage" class="disabled">Klangmassage</a>
-						<a class="dropdown-item" href="Klangmeditation" class="disabled">Klangmeditation</a>
-						<a class="dropdown-item" href="gong-terapi" class="disabled">Gong terapi</a>
-						<a class="dropdown-item" href="gong-bad" class="disabled">Gong bad</a>
-						<a class="dropdown-item" href="gong-meditation" class="disabled">Gong meditation</a>
+						<a class="dropdown-item" href="Lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing, stress og angst</a>
+						<a class="dropdown-item" href="Klangmassage">Klangmassage</a>
+						<a class="dropdown-item" href="Klangmeditation">Klangmeditation</a>
+						<a class="dropdown-item" href="gong-terapi">Gong terapi</a>
+						<a class="dropdown-item" href="gong-bad">Gong bad</a>
+						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
 					</div>
 				</li>
 				<li class="nav-item">

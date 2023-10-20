@@ -44,7 +44,6 @@ a.navbar-brand h1 {
 	font-weight: bold;
 }
 
-
 .display-1 {
 	font-size: 3rem;
 	font-weight: 300;
@@ -69,4 +68,13 @@ a.navbar-brand h1 {
 	line-height: 1.0;
 }
 
+/* update text headers */
+.container h2 {
+	font-family: arsenal-bold;
+}
+
+.container h3,
+.container h4 {
+	font-family: arsenal;
+}
 

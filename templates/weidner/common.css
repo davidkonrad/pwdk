@@ -68,6 +68,16 @@ nav .navbar-nav a:hover {
 	opacity: 1;
 }	
 
+a.dropdown-item:active {
+	color: #fff !important;
+	background-color: #82714e;
+}
+
+/*
+nav .navbar-nav a:active {
+	opacity: 1;
+}	
+
 /* display */
 .display-0 {
 	font-size: 5rem;
