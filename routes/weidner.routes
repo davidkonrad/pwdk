@@ -121,7 +121,7 @@
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Gongterapi" }
 						]
-         },
+        },
 				{
             "route": "gongbad",
             "include": "pages\/gongbad.html",
@@ -131,6 +131,17 @@
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Gongterapi" }
+						]
+        },
+				{
+            "route": "hvad-er-lydhealing",
+            "include": "pages\/hvad-er-lydhealing.html",
+            "title": "Hvad er Lydhealing",
+            "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "header": "Hvad er Lydhealing" }
 						]
          }
     ]
