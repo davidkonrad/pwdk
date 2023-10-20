@@ -6,7 +6,7 @@
 
 	<section class="front-header">
 		<img class="pernille-weidner-logo pernille-weidner-logo-lg" style="position:relative;top:2rem;" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
-		<h1>Indre ro med klang</h1>
+		<h1>Psykoterapi og Lydhealing</h1>
 <!--
 		<img src="images/gong-skåle-md.jpg" style="max-height: 16rem; width:100%; object-fit: cover;">
 -->
@@ -52,7 +52,7 @@
 						<a class="dropdown-item" href="Klangmassage">Klangmassage</a>
 						<a class="dropdown-item" href="Klangmeditation">Klangmeditation</a>
 						<a class="dropdown-item" href="gong-terapi">Gong terapi</a>
-						<a class="dropdown-item" href="gong-bad">Gong bad</a>
+						<a class="dropdown-item" href="gong-bad" title="">Gong bad</a>
 						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
 					</div>
 				</li>
