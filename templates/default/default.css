@@ -1,6 +1,8 @@
 
-:root {
-  --jumbotron-padding-y: 3rem;
+#weidner-carousel img {
+	max-height: 16rem; 
+	width:100%; 
+	object-fit: cover;
 }
 
 body {

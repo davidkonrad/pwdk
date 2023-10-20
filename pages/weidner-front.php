@@ -1,12 +1,37 @@
 <?php
 //include('pages/header.php');
 ?>
+
 <main class="mx-auto" role="main">
 
 	<section class="front-header">
-		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul"><br>
+		<img class="pernille-weidner-logo pernille-weidner-logo-lg" style="position:relative;top:2rem;" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
 		<h1>Indre ro med klang</h1>
-		<img src="images/gong-skåle-md.jpg" style="max-height: 12rem; width:100%; object-fit: cover;">
+<!--
+		<img src="images/gong-skåle-md.jpg" style="max-height: 16rem; width:100%; object-fit: cover;">
+-->
+		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/lydhealing-md.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/gong-helstørrelse-md.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/klangmassage-carousel.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/klangmassage-behandling.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/vandfald-psykoterapi-afslapning.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,7 +44,7 @@
 					<a class="nav-link dropdown-toggle" href="#" id="klanghealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Klang Healing
 					</a>
-					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown">
+					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="hvad-er-lydhealing">Hvad er lydhealing</a>
 						<a class="dropdown-item" href="lydhealing">Lydhealing</a>
 						<a class="dropdown-item" href="Lydhealing-børn">Lydhealing børn</a>
