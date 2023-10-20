@@ -145,7 +145,7 @@
 						]
         },
 				{
-            "route": "lydhealing-og-børn",
+            "route": "lydhealing-til-børn",
             "include": "pages\/lydhealing-og-boern.html",
             "title": "Lydhealing og børn",
             "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",

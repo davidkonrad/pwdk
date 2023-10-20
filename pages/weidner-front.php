@@ -7,9 +7,6 @@
 	<section class="front-header">
 		<img class="pernille-weidner-logo pernille-weidner-logo-lg" style="position:relative;top:2rem;" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
 		<h1>Psykoterapi og Lydhealing</h1>
-<!--
-		<img src="images/gong-skåle-md.jpg" style="max-height: 16rem; width:100%; object-fit: cover;">
--->
 		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -38,34 +35,44 @@
 		<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link" href="#"Hjem <span class="sr-only">Hjem</span></a>
+					<a class="nav-link" href="#">Hjem <span class="sr-only">Hjem</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="psykoterapi">Psykoterapi</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="klanghealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Klang Healing
+					<a class="nav-link" href="#" id="lydhealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Lydhealing
 					</a>
-					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="hvad-er-lydhealing" title="Læs mere om hvad Lydhealing er">Hvad er lydhealing</a>
-						<a class="dropdown-item" href="lydhealing" title="Grundlæggende metodik og virkning">Lydhealing</a>
-						<a class="dropdown-item" href="Lydhealing-og-børn" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing og børn</a>
-						<a class="dropdown-item" href="Lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing, stress og angst</a>
-						<a class="dropdown-item" href="Klangmassage">Klangmassage</a>
-						<a class="dropdown-item" href="Klangmeditation">Klangmeditation</a>
+					<div class="dropdown-menu" aria-labelledby="lydhealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
+						<a class="dropdown-item" href="hvad-er-lydhealing" title="Læs mere om hvad Lydhealing egentlig er">Hvad er lydhealing</a>
+						<a class="dropdown-item" href="Lydhealing-til-børn" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
+						<a class="dropdown-item" href="Lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing stress og angst</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="gong-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Gong
+					</a>
+					<div class="dropdown-menu" aria-labelledby="gong-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="gong-terapi">Gong terapi</a>
 						<a class="dropdown-item" href="gong-bad" title="">Gong bad</a>
 						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
 					</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Sessioner</a>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" id="klanghealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Klang
+					</a>
+					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
+						<a class="dropdown-item" href="Klangmassage">Klangmassage</a>
+						<a class="dropdown-item" href="Klangmeditation">Klangmeditation</a>
+					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="om-pernille-weidner">Om mig</a>
+					<a class="nav-link" href="kakao-ceremoni">Kakaoceremoni</a>
 				</li>
-
-
-
-
 			</ul>
 		</div>
 	</nav>
