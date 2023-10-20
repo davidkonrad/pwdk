@@ -1,12 +1,63 @@
+@font-face {
+	font-family: tangerine;
+	src: url(../../assets/fonts/Tangerine/Tangerine-Regular.ttf);
+}
+@font-face {
+	font-family: tangerine-bold;
+	src: url(../../assets/fonts/Tangerine/Tangerine-Bold.ttf);
+}
+@font-face {
+	font-family: arsenal;
+	src: url(../../assets/fonts/Arsenal/Arsenal-Regular.ttf);
+}
+@font-face {
+	font-family: arsenal-bold;
+	src: url(../../assets/fonts/Arsenal/Arsenal-Bold.ttf);
+}
+
+
 h1, h2,h3,h4,h5,
 .display-1, .display-2, .display-3, .display-4 {
-	font-family: 'Lobster Two', cursive;
+	font-family: tangerine-bold;
+	XXXfont-family: 'Lobster Two', cursive;
 	XXXcolor : darkslategray;
 }
 
 p {
 	XXXfont-family: 'Josefin Sans';
 }
+
+/* ny header */
+.front-header {
+	background: #fff;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: .1rem;
+}
+.front-header h1 {
+	font-size: 5rem;
+	font-weight: bold;
+	color: #82714e;
+}	
+.nav-link {
+	font-family: arsenal-bold;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #82714e;
+}	
+
+nav .navbar-nav li a {
+	color: #82714e !important;
+	opacity: .8;
+}
+nav .navbar-nav li.active a {
+	color: gray !important;
+	opacity: .8;
+}
+nav .navbar-nav a:hover {
+	opacity: 1;
+}	
+
 
 
 /* navbar */
@@ -20,9 +71,12 @@ p {
 
 .pernille-weidner-logo {
   transition: transform 1s ease-in-out;
-	position:relative;
-	height:3rem;
-	top:-.2rem;
+	position: relative;
+	height: 3rem;
+	top: -.2rem;
+}
+.pernille-weidner-logo-lg {
+	height: 5rem;
 }
 .pernille-weidner-logo:hover {
 	transform: rotate(140deg);
@@ -146,6 +200,33 @@ img.mfp-img {
 }
 .quote-card.yellow-card:before, .quote-card.yellow-card:after {
   color: #FBC02D;
+}
+
+/* ny main ?? */
+@media (min-width: 576px) { 
+	main {
+		width : 300px;
+	}
+}
+@media (min-width: 768px) { 
+	main {
+		width : 300px;
+	}
+}
+@media (min-width: 992px) { 
+	main {
+		width : 300px;
+	}
+}
+@media (min-width: 1200px) { 
+	main {
+		width : 300px;
+	}
+}
+@media (min-width: 1400px) { 
+	main {
+		width : 900px;
+	}
 }
 
 

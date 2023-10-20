@@ -13,11 +13,6 @@ include 'lib/Gawain.php';
 <base href="<?php echo $App->baseName();?>" /> 
 <title><?php echo $App->title(); ?></title>
 <meta name="description" content="<?php echo $App->meta(); ?>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/bs46/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/magnific/magnific-popup.css">
