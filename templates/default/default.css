@@ -1,37 +1,21 @@
 
 #weidner-carousel img {
+	height: 16rem; 
+	min-height: 16rem; 
 	max-height: 16rem; 
 	width:100%; 
 	object-fit: cover;
 }
+@media (max-width: 912px) { 
+	#weidner-carousel img {
+		height: 10rem; 
+		min-height: 10rem; 
+		max-height: 10rem; 
+	}
+}
 
 body {
 	background-color: #ece6dc;
-}
-
-.jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron-heading {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
 }
 
 footer {
