@@ -5,7 +5,7 @@
 <main class="mx-auto" role="main">
 
 	<section class="front-header">
-		<img class="pernille-weidner-logo pernille-weidner-logo-lg" style="position:relative;top:2rem;" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
+		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
 		<h1>Psykoterapi og Lydhealing</h1>
 		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
