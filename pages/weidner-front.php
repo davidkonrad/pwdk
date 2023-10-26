@@ -88,7 +88,7 @@
 				</p>
 				<p>
 					Jeg tror på at vejen til denne ro, begynder med at forstå os selv dybere, både vores tanker og vores følelser. 
-					Her bruger jeg bruger psykoterapien til at hjælpe dig til større selvreflektion og selvindsigt. 
+					Her bruger jeg psykoterapien til at hjælpe dig til større selvreflektion og selvindsigt. 
 				</p>
 				<p>
 					Lydhealing bruger jeg til at skabe dyb ro i krop og sind, dette kan både være i kombination med psykoterapien, men kan også stå alene. Disse metoder vil lære dig at navigere i livets udfordringer, med større lethed og tilstedeværelse. 
@@ -101,6 +101,85 @@
 				</p>
 
 				<hr>
+				<div class="row">
+				
+				<pre class="col-md-4">
+Kære Pernille
+
+Jeg skylder dig en tak.
+
+Jeg havde booket en
+klangmassage for et par uger
+siden.
+
+Jeg tænkte det ville gøre godt for
+min ømfindtlige krop, og sind
+forhåbentlig også.
+
+Skæbnen ville det, at jeg dagen før
+massagen blev ramt af en svær
+situation i familien, så mit fokus da
+jeg lå på briksen ikke helt var det
+oprindelige, altså kroppen.
+Derimod fik jeg på den time,
+klarhed over hvordan jeg skulle
+agere og reagere, tak ❤️
+
+Psyken og fysikken hænger
+uløseligt sammen, hvis du har ondt
+det ene sted, får du det nok også
+det andet sted.
+
+Og jeg er sikker på at hvis jeg IKKE
+havde ligget på din briks den dag,
+havde jeg ikke kunne gå dagen
+efter,
+
+Det kunne jeg, takket være at du
+lyttede til mig inden vi begyndte
+og du tilpassede massagen til min
+krop derefter,
+
+Jeg ville bare have mere, og det vil
+jeg stadig.
+
+Jeg er klar til en mere,
+
+Tak ❤️
+</pre>
+
+<pre class="col-md-4">
+Dejligste anmeldelse at få 
+
+At træde ind i den lille træhytte hos 
+Pernille, var kliché agtig som det kan 
+lyde, som at træde ind i en anden 
+verden og hurtigt glemme tid og 
+sted. 
+
+Jeg mærkede hurtigt Pernilles rolige
+væsen.
+
+Jeg blev puttet med det blødeste tæppe
+og lod mig villigt føre med i 
+klangens univers.
+
+Overraskende hurtigt mærkede jeg en ro
+sakeride furet mærkede mg
+ør 10 og at sinpovi red som jeg dk
+Mar Føl tær.
+Mn belrystereg kor pg Ra ne
+stoppe Bverdegutandkerne, koen tå
+frnin
+Jeg lod møg føre han og opnåede en
+TO og atslanpetted dybere ten
+akvarel krogt FE RGE
+Purrsle øv 34) GOT MÅ i et srekke
+bagefter og såe 190 jen mar Okay
+gg vil veere arrene en
+Mangmeausge or Perrute MP
+</div>
+
 <!--
 				<div class="col-md-4">
 					<a class="card mb-4 box-shadow text-muted" href="psykoterapi">
