@@ -101,8 +101,24 @@
 				</p>
 
 				<hr>
+<!--
+				<h2>Anmeldelser</h2>
+-->
 				<div class="row">
-				
+					<figure class="float-right col-md-3 col-sm-12">
+						<img src="images/anmeldelse-1.jpg" data-mfp-src="images/anmeldelse-1.jpg" class="w-100 img-thumbnail" alt="Anmeldelse">
+					</figure>
+					<figure class="float-right col-md-3 col-sm-12">
+						<img src="images/anmeldelse-2.jpg" data-mfp-src="images/anmeldelse-2.jpg" class="w-100 img-thumbnail" alt="Anmeldelse">
+					</figure>
+					<figure class="float-right col-md-3">
+						<img src="images/anmeldelse-3.jpg" data-mfp-src="images/anmeldelse-3.jpg" class="img-thumbnail" alt="Anmeldelse">
+					</figure>
+					<figure class="float-right col-md-3">
+						<img src="images/anmeldelse-4.jpg" data-mfp-src="images/anmeldelse-4.jpg" class="img-thumbnail" alt="Anmeldelse">
+					</figure>
+
+<!--									
 				<pre class="col-md-4">
 Kære Pernille
 
@@ -179,6 +195,7 @@ bagefter og såe 190 jen mar Okay
 gg vil veere arrene en
 Mangmeausge or Perrute MP
 </div>
+-->
 
 <!--
 				<div class="col-md-4">
