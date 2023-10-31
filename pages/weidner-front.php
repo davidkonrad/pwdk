@@ -79,9 +79,11 @@
 	<div class="py-3">
 		<div class="container">
 			<div class="Xrow p-3">
+<!--
 				<figure class="float-right ml-sm-4">
 					<img src="images/klang-massage-forberedelse-xs.jpg" data-mfp-src="images/klang-massage-forberedelse-lg.jpg" class="img-thumbnail" alt="Lydhealing restituerer kroppen, og giver sjælen ro og nærvær">
 				</figure>
+-->
 				<p>
 					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, 
 					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. 
