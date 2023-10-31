@@ -87,11 +87,6 @@ a.dropdown-item:active {
 	background-color: #82714e;
 }
 
-/*
-nav .navbar-nav a:active {
-	opacity: 1;
-}	
-
 /* display */
 .display-0 {
 	font-size: 5rem;
@@ -165,7 +160,6 @@ img.mfp-img {
   top: 10px;
   left: 10px;
   font-size: 5em;
-  XXcolor: rgba(238, 238, 238, 0.8);
 	color: #ece6dc;
   font-weight: normal;
 }
@@ -177,7 +171,6 @@ img.mfp-img {
   line-height: 100px;
   right: -2px;
   font-size: 25em;
-  XXcolor: rgba(238, 238, 238, 0.8);
 	color: #ece6dc;
   font-weight: normal;
 }

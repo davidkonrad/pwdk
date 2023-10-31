@@ -7,6 +7,10 @@
 			"head": [
 				{
 					"tagtype": "link",
+					"href": "default/alt.css"
+				},
+				{
+					"tagtype": "link",
 					"href": "weidner/common.css"
 				},
 				{
