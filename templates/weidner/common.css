@@ -93,6 +93,11 @@ a.dropdown-item:active {
 	font-weight: 900;
 	line-height: 1.0;
 }
+@media (max-width: 768px) { 
+	.display-0 {
+		font-size: 3.5rem;
+	}
+}
 
 
 /* navbar */
