@@ -105,22 +105,6 @@
 					<i class="fa fa-instagram fa-fw instagram" style="font-size:3rem;font-weight:900;"></i>
 				</a>
 			</div>
-
-<!--
-			<div id="actions-sm" class="d-none flex-column justify-content-around pb-md-4">
-				<a href="anbefalinger" class="btn btn-raised btn-weidner shadow mb-sm-3" onclick="">Anbefalinger</a>
-				<a href="kontakt" class="btn btn-raised btn-weidner shadow mb-sm-4">Bestil Tid</a>
-				<div class="mx-auto">
-					<a href="https://facebook.com/groups/1391458601057676" target=_blank class="btn-icon d-block float-left Xmx-auto" title="Følg Pernilles cacao og lydunivers🍀🎶" aria-label="Følg Pernille Weidner på Facebook">
-						<i class="fa fa-facebook fa-fw" style="color:#3b5998;font-size:3rem;font-weight:900;"></i>
-					</a>
-					<a href="https://instagram.com/pernilleweidner_firmaprofil" target=_blank class="btn-icon d-block float-left Xmx-auto" title="Lydhealing🎶💗klangmassage🎵😌gong terapi✨Klangmeditation🌟✨Psykoterapi🪷Cacao ceremonier🍃💗Plantemedicinske rejser🌿🌱" aria-label="Følg Pernille Weidner på Instagram">
-						<i class="fa fa-instagram fa-fw instagram" style="font-size:3rem;font-weight:900;"></i>
-					</a>
-				</div>
-			</div>
--->
-
 		</div>
 	</div>
 </main>
