@@ -46,8 +46,8 @@ p {
 	color: #82714e;
 }	
 .front-header .pernille-weidner-logo {
-	position:relative;
-	top:2rem;
+	position: relative;
+	top: 2rem;
 }
 
 @media (max-width: 912px) { 
@@ -255,29 +255,28 @@ main {
 
 @media (min-width: 576px) { 
 	main {
-		width : 300px;
+		width : 570px;
 	}
 }
 @media (min-width: 768px) { 
 	main {
-		width : 300px;
+		width : 760px;
+	}
+}
+@media (min-width: 820px) { 
+	main {
+		width : 820px;
 	}
 }
 @media (min-width: 992px) { 
 	main {
-		width : 300px;
+		width : 992px;
 	}
 }
 @media (min-width: 1200px) { 
 	main {
-		width : 300px;
-	}
-}
-@media (min-width: 1400px) { 
-	main {
 		width : 900px;
 	}
 }
-
 
 

@@ -28,7 +28,7 @@
 		</div>
 	</section>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
 		<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
