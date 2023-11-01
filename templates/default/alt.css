@@ -5,6 +5,14 @@
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26)
 }
 
+/*
+@media (max-width: 576px) { 
+	.btn-raised {
+		font-size: 1rem;
+	}
+}
+*/
+
 .btn-raised:not([disabled]):active,
 .btn-raised:not([disabled]):focus,
 .btn-raised:not([disabled]):hover {
@@ -105,14 +113,14 @@
 }
 
 .btn-icon {
-	border: 3px solid #fff;
-	border-radius: 50%;
+	Xborder: 3px solid #fff;
+	Xborder-radius: 50%;
 	transition: border-color .9s;
 	transition-timing-function: ease-out;
 	font-weight: 900;
 	box-sizing: border-box;
 }
-.btn-icon:hover {
+.btn-icon:hover, .btn-icon:active {
 	animation: shaking 0.5s infinite;
 }
 @keyframes shaking {
@@ -123,11 +131,12 @@
 	100% {transform: rotate(0deg);}
 }
 
+/*
 .btn-icon:focus,
 .btn-icon:active {
-	border-color: black;
 	transition: none;
 }
+*/
 
 .instagram {
 	border-radius: 4px;

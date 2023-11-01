@@ -238,6 +238,9 @@ img.mfp-img {
 /* ny main */
 main {
 	background-color: #fff;
+	border-bottom-right-radius: .5rem;
+	border-bottom-left-radius: .5rem;
+	margin-bottom: 2rem;
 }
 
 @media (min-width: 576px) { 

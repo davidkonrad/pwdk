@@ -61,6 +61,18 @@ const PW = (function(window, document) {
 		})
 	}
 
+/*
+	const initAction = function() {
+		const sm = gebi('actions-sm')
+		const lg = gebi('actions-lg')
+		if (window.matchMedia("(min-width: 768px)").matches) {
+			lg.classList.replace('d-none', 'd-flex')
+		} else {
+			sm.classList.replace('d-none', 'd-flex')
+		}
+	}
+*/
+
 	return {
 		init
 	}

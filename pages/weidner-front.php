@@ -1,5 +1,5 @@
 
-<main class="mx-auto" role="main" style="border-bottom-right-radius:.5rem;border-bottom-left-radius:.5rem;">
+<main class="mx-auto" role="main" XXstyle="border-bottom-right-radius:.5rem;border-bottom-left-radius:.5rem;">
 
 	<section class="front-header">
 		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
@@ -96,7 +96,7 @@
 			</div>
 
 			<div class="d-flex justify-content-around pb-md-4">
-				<a href="anbefalinger" class="btn btn-raised btn-weidner shadow">Anbefalinger</a>
+				<a href="anbefalinger" class="btn btn-raised btn-weidner shadow d-none d-lg-block" onclick="">Anbefalinger</a>
 				<a href="kontakt" class="btn btn-raised btn-weidner shadow">Bestil Tid</a>
 				<a href="https://facebook.com/groups/1391458601057676" target=_blank class="btn-icon" title="Følg Pernilles cacao og lydunivers🍀🎶" aria-label="Følg Pernille Weidner på Facebook">
 					<i class="fa fa-facebook fa-fw" style="color:#3b5998;font-size:3rem;font-weight:900;"></i>
@@ -105,6 +105,21 @@
 					<i class="fa fa-instagram fa-fw instagram" style="font-size:3rem;font-weight:900;"></i>
 				</a>
 			</div>
+
+<!--
+			<div id="actions-sm" class="d-none flex-column justify-content-around pb-md-4">
+				<a href="anbefalinger" class="btn btn-raised btn-weidner shadow mb-sm-3" onclick="">Anbefalinger</a>
+				<a href="kontakt" class="btn btn-raised btn-weidner shadow mb-sm-4">Bestil Tid</a>
+				<div class="mx-auto">
+					<a href="https://facebook.com/groups/1391458601057676" target=_blank class="btn-icon d-block float-left Xmx-auto" title="Følg Pernilles cacao og lydunivers🍀🎶" aria-label="Følg Pernille Weidner på Facebook">
+						<i class="fa fa-facebook fa-fw" style="color:#3b5998;font-size:3rem;font-weight:900;"></i>
+					</a>
+					<a href="https://instagram.com/pernilleweidner_firmaprofil" target=_blank class="btn-icon d-block float-left Xmx-auto" title="Lydhealing🎶💗klangmassage🎵😌gong terapi✨Klangmeditation🌟✨Psykoterapi🪷Cacao ceremonier🍃💗Plantemedicinske rejser🌿🌱" aria-label="Følg Pernille Weidner på Instagram">
+						<i class="fa fa-instagram fa-fw instagram" style="font-size:3rem;font-weight:900;"></i>
+					</a>
+				</div>
+			</div>
+-->
 
 		</div>
 	</div>
