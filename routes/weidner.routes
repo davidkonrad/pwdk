@@ -48,22 +48,11 @@
             "route": "psykoterapi",
             "include": "pages\/psykoterapi.html",
             "title": "Psykoterapi",
-            "meta": "Psykoterapi",
+            "meta": "Gestaltterapi er en oplevelsesorienteret, fænomenologisk psykoterapi, hvor vi beskæftiger os med det, som betyder noget i dit liv – her og nu",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
 							{ "header": "Psykoterapi" }
-						]
-        },
-				{
-            "route": "walk'n'talk",
-            "include": "pages\/walkandtalk.html",
-            "title": "Walk n' talk",
-            "meta": "Walk'n'talk",
-		        "template": "weidner",
-						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
-							{ "header": "Walk n' talk" }
 						]
         },
 				{
