@@ -1,5 +1,5 @@
 
-<main class="mx-auto" role="main" XXstyle="border-bottom-right-radius:.5rem;border-bottom-left-radius:.5rem;">
+<main class="mx-auto" role="main">
 
 	<section class="front-header">
 		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
@@ -42,8 +42,8 @@
 						Lydhealing
 					</a>
 					<div class="dropdown-menu" aria-labelledby="lydhealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="hvad-er-lydhealing" title="Læs mere om hvad Lydhealing egentlig er">Hvad er lydhealing</a>
-						<a class="dropdown-item" href="Lydhealing-til-børn" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
+						<a class="dropdown-item" href="lydhealing" title="Læs mere om hvad Lydhealing egentlig er">Hvad er lydhealing</a>
+						<a class="dropdown-item" href="Lydhealing-til-boern" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
 						<a class="dropdown-item" href="Lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing stress og angst</a>
 					</div>
 				</li>
@@ -54,7 +54,9 @@
 					<div class="dropdown-menu" aria-labelledby="gong-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="gong-terapi" title="Den kraftfulde lyd fra gongerne, kombineret med deres dybe vibrationer, indbyder til en unik og transformerende oplevelse">Gong terapi</a>
 						<a class="dropdown-item" href="gong-bad" title="Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst">Gong bad</a>
+<!--
 						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
+-->
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -75,7 +77,7 @@
 
 	<div class="py-3">
 		<div class="container">
-			<div class="p-3">
+			<div class="pt-sm-1 pl-sm-3 pr-sm-3 pb-sm-3">
 				<p>
 					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, 
 					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. 

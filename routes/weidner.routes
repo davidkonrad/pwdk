@@ -34,17 +34,6 @@
 						]
         },
 				{
-            "route": "lydhealing",
-            "include": "pages\/lydhealing.html",
-            "title": "Lydhealing",
-            "meta": "En lydhealingssession kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig.",
-		        "template": "weidner",
-						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
-							{ "header": "Lydhealing" }
-						]
-        },
-				{
             "route": "psykoterapi",
             "include": "pages\/psykoterapi.html",
             "title": "Psykoterapi",
@@ -103,12 +92,12 @@
 				{
             "route": "gong-terapi",
             "include": "pages\/gongterapi.html",
-            "title": "Gongterapi",
+            "title": "Gong-terapi",
             "meta": "Gong-terapi er en unik og berigende oplevelse, der trækker på kraften af ​​lyde og vibrationer for at fremme helbredelse og velvære.",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/gong-skåle-header.png" },
-							{ "header": "Gongterapi" }
+							{ "header": "Gong-terapi" }
 						]
         },
 				{
@@ -119,14 +108,14 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/gong-skåle-header.png" },
-							{ "header": "Gongbad" }
+							{ "header": "Gong-bade" }
 						]
         },
 				{
-            "route": "hvad-er-lydhealing",
+            "route": "lydhealing",
             "include": "pages\/hvad-er-lydhealing.html",
             "title": "Hvad er Lydhealing",
-            "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
+            "meta": "En lydhealingssession kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig.",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
@@ -134,10 +123,10 @@
 						]
         },
 				{
-            "route": "lydhealing-til-børn",
-            "include": "pages\/lydhealing-og-boern.html",
-            "title": "Lydhealing og børn",
-            "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
+            "route": "lydhealing-til-boern",
+            "include": "pages\/lydhealing-til-boern.html",
+            "title": "Lydhealing til børn",
+            "meta": "Lydhealing kan være meget gavnligt for børn, da det kan hjælpe med at skabe følelsesmæssig balance og velvære.",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "assets/kakao-ceremoni-1.jpg" },
