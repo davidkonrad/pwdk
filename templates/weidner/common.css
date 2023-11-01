@@ -99,6 +99,10 @@ a.dropdown-item:active {
 	}
 }
 
+::selection {
+  color: #fff;
+  background: #82714e;
+}
 
 /* navbar */
 .navbar-brand {
