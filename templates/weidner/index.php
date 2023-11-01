@@ -7,7 +7,7 @@ include('pages/header.php');
 	echo '<h1 class="display-0">'.$this->getProp('header').'</h1>';
 	echo '</header>';
 ?>
- <main class="mx-auto" role="main" style="background-color:#ece6dc;">
+ <main class="mx-auto" role="main" style="background-color:#ece6dc;box-shadow:none;">
 	<div class="py-1">
 		<div class="container">
 			<div class="row d-block ml-1 mr-1">
