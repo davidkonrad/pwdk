@@ -4,14 +4,14 @@
 			<div class="row">
 				<div class="col-sm-8 col-md-7 py-4">
 					<img src="images/pernille-weidner-i-haven.jpg" class="rounded-circle img-thumbnail float-left w-25 mr-sm-3" style="object-fit:cover;" alt="Pernille Weidner">
-					<p class="text-muted">
+					<p class="text-muted albert">
 Jeg er uddannet pædagog, og har tidligere bl.a. arbejdet på en døgninstitution 
 for unge med forskellige diagnoser. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige 
 kurser igennem årene som bl.a. mindfullness instruktør, positiv psykologi vejleder, ernæringskonsulent, fitnessinstruktør og som det nyeste, 
 klangmassage behandler og klangaktør <a href="om-pernille-weidner" class="text-dark text-decoration-none font-italic" title="Læs mere om Pernille Weidner">læs mere ...</a></p>
 				</div>
 				<div class="col-sm-4 offset-md-1 py-4">
-					<ul class="list-unstyled">
+					<ul class="list-unstyled albert">
 						<li>
 							<strong class="fa fa-instagram fa-fw text-dark"></strong>
 							<a href="https://instagram.com/pernilleweidner_firmaprofil" class="text-dark" title="Lydhealing🎶💗klangmassage🎵😌gong terapi✨Klangmeditation🌟✨Psykoterapi🪷Cacao ceremonier🍃💗Plantemedicinske rejser🌿🌱" aria-label="Følg Pernille Weidner på Instagram">Instagram</a>

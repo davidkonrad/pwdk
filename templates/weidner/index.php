@@ -3,14 +3,14 @@ include('pages/header.php');
 ?>
 
 <?php
-	echo '<header class="page-header" style="background: url('.$this->getProp('image').');">';
+	echo '<header class="page-header" style="background: url('.$this->getProp('image').');background-size: cover;">';
 	echo '<h1 class="display-0">'.$this->getProp('header').'</h1>';
 	echo '</header>';
 ?>
  <main class="mx-auto" style="background-color:#ece6dc;box-shadow:none;">
 	<div class="py-1">
 		<div class="container">
-			<div class="row d-block ml-1 mr-1">
+			<div class="row d-block ml-1 mr-1 albert">
 <?php
 $this->body();
 ?>
@@ -27,7 +27,7 @@ echo <<<FOOT
 		<figure>
 			<img style="height:100px;" src="images/pernille-weidner-i-haven.jpg" data-mfp-src="assets/pernille-weidner-i-haven-lg.jpg" class="img-thumbnail float-left mr-sm-3" alt="Pernille Weidner - psykoterapeut">
 		</figure>
-		<p class="pt-sm-1">
+		<p class="pt-sm-1 albert">
 			Jeg er uddannet pædagog, og har tidligere bl.a. arbejdet med ungediagnoser. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige kurser igennem årene som bl.a. mindfullness instruktør, positiv psykologi vejleder, ernæringskonsulent, fitnessinstruktør og som det nyeste, klangmassage behandler og klangaktør hos Anne Viese.
 			<a href="om-pernille-weidner" class="text-dark font-italic" title="Læs mere om Pernille Weidner">læs mere ...</a>
 		</p>

@@ -7,7 +7,7 @@
             "meta": "Samtale-terapi",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Samtale-terapi" }
 						]
         },
@@ -18,7 +18,7 @@
             "meta": "Klangmassage er en blid massageform, hvor klangskålene bruges både direkte og indirekte på kroppen. Medfører virkelig afslapning og stressreduktion, harmonisering af kroppens celler og frigivelse af spændinger i kroppen",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Klangmassage" }
 						]
         },
@@ -29,7 +29,7 @@
             "meta": "kakao ceremoni",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Kakao ceremoni" }
 						]
         },
@@ -37,10 +37,10 @@
             "route": "psykoterapi",
             "include": "pages\/psykoterapi.html",
             "title": "Psykoterapi",
-            "meta": "Gestaltterapi er en oplevelsesorienteret, fænomenologisk psykoterapi, hvor vi beskæftiger os med det, som betyder noget i dit liv – her og nu",
+            "meta": "Gestalt-terapi er en oplevelsesorienteret, fænomenologisk psykoterapi, hvor vi beskæftiger os med det, som betyder noget i dit liv – her og nu",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Psykoterapi" }
 						]
         },
@@ -51,7 +51,7 @@
             "meta": "Om Pernille Weidner",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Om Pernille" },
 							{ "no-pw-footer": "true" }
 						]
@@ -63,7 +63,7 @@
             "meta": "Kontakt, virksomhedsinfo, sociale medier, priser. Oplev en klangmassage eller kakao-ceremoni, du kommer aldrig til at fortryde det",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Kontakt" }
 						]
 				},
@@ -74,7 +74,7 @@
             "meta": "Anbefalinger",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Anbefalinger" }
 						]
         },
@@ -85,7 +85,7 @@
             "meta": "Formålet med klangmeditation er at skabe en atmosfære af dyb afslapning. Lydene anses for at have beroligende virkninger, der kan hjælpe med at reducere stress, angst og spændinger.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Klangmeditation" }
 						]
         },
@@ -118,7 +118,7 @@
             "meta": "En lydhealingssession kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Hvad er Lydhealing" }
 						]
         },
@@ -129,7 +129,7 @@
             "meta": "Lydhealing kan være meget gavnligt for børn, da det kan hjælpe med at skabe følelsesmæssig balance og velvære.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Lydhealing og børn" }
 						]
         },
@@ -140,7 +140,7 @@
             "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "assets/kakao-ceremoni-1.jpg" },
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
 							{ "header": "Lydhealing, stress og angst" }
 						]
          }
