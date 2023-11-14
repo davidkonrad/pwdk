@@ -21,9 +21,11 @@
 				<div class="carousel-item">
 					<img src="images/klangmassage-behandling.jpg" class="d-block w-100" alt="...">
 				</div>
+<!--
 				<div class="carousel-item">
 					<img src="images/vandfald-psykoterapi-afslapning.jpg" class="d-block w-100" alt="...">
 				</div>
+-->
 			</div>
 		</div>
 	</section>
@@ -96,7 +98,7 @@ if (count($_GET)) {
 
 	echo <<<HTML
 	<div class="alert alert-danger p-4 mr-4 ml-4">
-		<h5 class="albert">Desværre, siden <em class="text-muted">{$_GET['page']}</em> findes ikke. {$recommend}</h5>
+		<h5 class="albert">Desværre, siden <em class="text-muted">/{$_GET['page']}</em> findes ikke. {$recommend}</h5>
 	</div>
 HTML;
 }
