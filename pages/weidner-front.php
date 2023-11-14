@@ -34,7 +34,7 @@
 		<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Hjem <span class="sr-only">Hjem</span></a>
+					<a class="nav-link" href="https://www.pernilleweidner.dk">Hjem <span class="sr-only">Hjem</span></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="psykoterapi">Psykoterapi</a>
