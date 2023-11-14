@@ -32,6 +32,14 @@ h1, h2, h3, h4, h5, .display-1, .display-2, .display-3, .display-4 {
 	color: #82714e;
 }
 
+a.weidner-link {
+	color: #82714e;
+	font-weight: bold;
+}
+a.weidner-link:hover {
+	color: #C2B280;
+}
+
 /* ny header */
 .front-header {
 	background: #fff;

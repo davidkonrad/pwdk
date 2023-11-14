@@ -109,17 +109,22 @@ HTML;
 			<div class="pt-sm-1 pl-sm-3 pr-sm-3 pb-sm-3">
 				<p>
 					Jeg brænder for at hjælpe mennesker med at finde ro og balance i deres liv. Den verden vi lever i, 
-					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og harmoni. 
+					er fyldt med travlhed og konstante forandringer, hvilket gør det vigtigere end nogensinde, at genopdage vores indre ro og 
+					<a class="weidner-link" href="gong-terapi" title="Gong-terapi skaber bedre harmoni og forbindelse på både fysisk og åndeligt plan">harmoni</a>.
 				</p>
 				<p>
 					Jeg tror på at vejen til denne ro, begynder med at forstå os selv dybere, både vores tanker og vores følelser. 
 					Her bruger jeg psykoterapien til at hjælpe dig til større selvreflektion og selvindsigt. 
 				</p>
 				<p>
-					Lydhealing bruger jeg til at skabe dyb ro i krop og sind, dette kan både være i kombination med psykoterapien, men kan også stå alene. Disse metoder vil lære dig at navigere i livets udfordringer, med større lethed og tilstedeværelse. 
+					<a class="weidner-link" href="lydhealing" title="Hvad er Lydhealing?">Lydhealing</a> bruger jeg til at skabe dyb ro i krop og sind, 
+					dette kan både være i kombination med <a class="weidner-link" href="psykoterapi" title="Oplevelsesorienteret psykoterapi og gestalt-terapi">psykoterapien</a>, 
+					men kan også stå alene. Disse metoder vil lære dig at navigere i livets udfordringer, med større lethed og tilstedeværelse. 
 				</p>
 				<p>
-					Det giver mig en dyb følelse af glæde og meningsfuldhed, at guide andre på denne rejse mod indre ro. Det er fantastisk at se folk opdage deres egne ressourcer, selv når verden omkring os kan virke kaotisk. 
+					Det giver mig en dyb følelse af glæde og meningsfuldhed, at guide andre på denne rejse mod 
+					<a class="weidner-link" href="kakao-ceremoni" title="Prøv at dikke ceremoniel cacao, et afbræk i en travl hverdag">indre ro</a>. 
+					Det er fantastisk at se folk opdage deres egne ressourcer, selv når verden omkring os kan virke kaotisk. 
 				</p>
 				<p>
 					Jeg vil glæde mig til, sammen med dig, at udforske veje til indre fred, og jeg ser meget frem til at hjælpe dig på din rejse.
