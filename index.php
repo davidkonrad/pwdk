@@ -16,6 +16,7 @@ include 'lib/Gawain.php';
 <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/bs46/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/magnific/magnific-popup.css">
+<meta name="google-site-verification" content="1ZC5iqvCMH0mX_7saG6it6ySFXjfzwNEFHA2yzlf4Q8" />
 <?php $App->renderBundles(); ?>
 </head>
 <body>
