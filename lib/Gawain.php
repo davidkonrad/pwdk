@@ -112,7 +112,7 @@ class Gawain extends Escalibor {
 				}
 			}
 		}
-		$tag.= '/>'."\n\r";
+		$tag.= '>'."\n\r";
 		echo $tag;
 	}
 

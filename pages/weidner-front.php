@@ -1,5 +1,5 @@
 
-<main class="mx-auto" role="main">
+<main class="mx-auto">
 
 	<section class="front-header">
 		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
@@ -12,11 +12,6 @@
 				<div class="carousel-item">
 					<img src="images/klangmassage-ryg-carousel.jpg" class="d-block w-100" alt="Lydhealing">
 				</div>
-<!--
-				<div class="carousel-item">
-					<img src="images/gong-helstørrelse-md.jpg" class="d-block w-100" alt="...">
-				</div>
--->
 				<div class="carousel-item">
 					<img src="images/klangmassage-carousel.jpg" class="d-block w-100" alt="Klangmassage">
 				</div>
