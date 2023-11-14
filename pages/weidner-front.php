@@ -77,9 +77,26 @@
 
 <?php
 if (count($_GET)) {
+	$pages = array('klangmassage', 'kakao-ceremoni', 'psykoterapi', 'klangmeditation', 'gong-terapi', 'gong-bad',
+								'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 'kontakt');
+
+	$input = $_GET['page'];
+	$best = -1;
+	$suggest = '';
+
+	foreach ($pages as $word) {
+		$s = similar_text($word, $input);
+		if ($s > $best) {
+			$best = $s;
+			$suggest = $word;
+		}
+	}
+
+	$recommend = $suggest !== '' ? 'Måske mente du <a href="'.$suggest.'" class="text-weidner">/'.$suggest.'</a>?' : '';
+
 	echo <<<HTML
 	<div class="alert alert-danger p-4 mr-4 ml-4">
-		<h5 class="albert">Desværre, siden <em class="text-muted">{$_GET['page']}</em> findes ikke</h5>
+		<h5 class="albert">Desværre, siden <em class="text-muted">{$_GET['page']}</em> findes ikke. {$recommend}</h5>
 	</div>
 HTML;
 }
