@@ -75,6 +75,16 @@
 		</div>
 	</nav>
 
+<?php
+if (count($_GET)) {
+	echo <<<HTML
+	<div class="alert alert-danger p-4 mr-4 ml-4">
+		<h5 class="albert">Desværre, siden <em class="text-muted">{$_GET['page']}</em> findes ikke</h5>
+	</div>
+HTML;
+}
+?>
+
 	<div class="py-3">
 		<div class="container">
 			<div class="pt-sm-1 pl-sm-3 pr-sm-3 pb-sm-3">

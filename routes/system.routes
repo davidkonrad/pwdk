@@ -2,10 +2,10 @@
     "routes": [
         {
             "route": "404",
-            "include": "pages\/404.html",
+            "include": "pages/weidner-front.php",
             "title": "Siden blev ikke fundet",
             "meta": "",
-            "template": "weidner"
+            "template": "default"
         },
         {
             "route": "",

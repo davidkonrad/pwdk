@@ -1,15 +1,13 @@
 RewriteEngine On
+
 RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule (.*) index.php [L,QSA]
 RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
 
-<IfModule mod_headers.c>
-   Header set Access-Control-Allow-Origin "*"
-</IfModule>
-<FilesMatch ".(eot|ttf|otf|woff)">
-   Header set Access-Control-Allow-Origin "*"
-</FilesMatch>
+
