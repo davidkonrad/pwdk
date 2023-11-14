@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-md-7 py-4">
-					<img src="images/pernille-weidner-i-haven.jpg" class="rounded-circle img-thumbnail float-left w-25 mr-sm-3" style="object-fit:cover;">
+					<img src="images/pernille-weidner-i-haven.jpg" class="rounded-circle img-thumbnail float-left w-25 mr-sm-3" style="object-fit:cover;" alt="Pernille Weidner">
 					<p class="text-muted">
 Jeg er uddannet pædagog, og har tidligere bl.a. arbejdet på en døgninstitution 
 for unge med forskellige diagnoser. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige 
