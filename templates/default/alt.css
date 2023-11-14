@@ -48,6 +48,7 @@
 
 /* btn-weidner */
 .btn-weidner {
+	text-shadow: #82714e 0 1px 2px;
 	background-color: #ece6dc; 
 	transition: background-color .9s;
 	transition-timing-function: ease-out;

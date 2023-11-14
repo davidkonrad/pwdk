@@ -124,8 +124,8 @@ HTML;
 			</div>
 
 			<div class="d-flex justify-content-around pb-md-4">
-				<a href="anbefalinger" class="btn btn-raised btn-weidner shadow d-none d-lg-block" onclick="">Anbefalinger</a>
-				<a href="kontakt" class="btn btn-raised btn-weidner shadow">Bestil Tid</a>
+				<a href="anbefalinger" class="btn btn-raised btn-weidner shadow d-none d-lg-block albert" title="Læs anbefalinger fra nogle af mine herlige klienter">Anbefalinger</a>
+				<a href="kontakt" class="btn btn-raised btn-weidner shadow albert" title="Se hvilke tidspunkter du kan komme i kontakt med mig">Bestil Tid</a>
 				<a href="https://facebook.com/groups/1391458601057676" target=_blank class="btn-icon" title="Følg Pernilles cacao og lydunivers🍀🎶" aria-label="Følg Pernille Weidner på Facebook">
 					<i class="fa fa-facebook fa-fw" style="color:#3b5998;font-size:3rem;font-weight:900;"></i>
 				</a>
