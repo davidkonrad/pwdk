@@ -65,12 +65,14 @@
 
 /* btn-weidner-dark */
 .btn-weidner-dark {
+	text-shadow: #685a3e 2px 2px;
 	background-color: #82714e;
 	transition: background-color .9s;
 	transition-timing-function: ease-out;
 	color: #fff;
 }
 .btn-weidner-dark:hover {
+	text-shadow: none;
 	background-color: #ece6dc; 
 	color: #000;
 }

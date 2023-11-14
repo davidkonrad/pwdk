@@ -72,7 +72,6 @@ a.card .card-body {
 	padding: .5rem;
 }
 
-
 .page-image {
 	position: absolute;
 	max-height: 150px;
@@ -81,26 +80,29 @@ a.card .card-body {
 	left: 0;
 }
 
-
 .display-1 {
+	font-family: albert;
 	font-size: 3rem;
 	font-weight: 300;
 	line-height: 1.0;
 }
 
 .display-2 {
+	font-family: albert;
 	font-size: 2.75rem;
 	font-weight: 300;
 	line-height: 1.0;
 }
 
 .display-3 {
+	font-family: albert;
 	font-size: 2.25rem;
 	font-weight: 300;
 	line-height: 1.0;
 }
 
 .display-4 {
+	font-family: albert;
 	font-size: 1.75rem;
 	font-weight: 300;
 	line-height: 1.0;
