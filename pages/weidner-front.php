@@ -7,25 +7,25 @@
 		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="...">
+					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="Gong skåle">
 				</div>
 				<div class="carousel-item">
-					<img src="images/klangmassage-ryg-carousel.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="images/gong-helstørrelse-md.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="images/klangmassage-carousel.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="images/klangmassage-behandling.jpg" class="d-block w-100" alt="...">
+					<img src="images/klangmassage-ryg-carousel.jpg" class="d-block w-100" alt="Lydhealing">
 				</div>
 <!--
 				<div class="carousel-item">
-					<img src="images/vandfald-psykoterapi-afslapning.jpg" class="d-block w-100" alt="...">
+					<img src="images/gong-helstørrelse-md.jpg" class="d-block w-100" alt="...">
 				</div>
 -->
+				<div class="carousel-item">
+					<img src="images/klangmassage-carousel.jpg" class="d-block w-100" alt="Klangmassage">
+				</div>
+				<div class="carousel-item">
+					<img src="images/klangmassage-behandling.jpg" class="d-block w-100" alt="Klangmassage">
+				</div>
+				<div class="carousel-item">
+					<img src="images/gong-md.png" class="d-block w-100" alt="Specialfremstillet Gong">
+				</div>
 			</div>
 		</div>
 	</section>
@@ -56,9 +56,6 @@
 					<div class="dropdown-menu" aria-labelledby="gong-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="gong-terapi" title="Den kraftfulde lyd fra gongerne, kombineret med deres dybe vibrationer, indbyder til en unik og transformerende oplevelse">Gong terapi</a>
 						<a class="dropdown-item" href="gong-bad" title="Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst">Gong bad</a>
-<!--
-						<a class="dropdown-item" href="gong-meditation">Gong meditation</a>
--->
 					</div>
 				</li>
 				<li class="nav-item dropdown">
