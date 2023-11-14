@@ -119,7 +119,9 @@ HTML;
 					Det er fantastisk at se folk opdage deres egne ressourcer, selv når verden omkring os kan virke kaotisk. 
 				</p>
 				<p>
-					Jeg vil glæde mig til, sammen med dig, at udforske veje til indre fred, og jeg ser meget frem til at hjælpe dig på din rejse.
+					Jeg vil glæde mig til, sammen med dig, at udforske veje til 
+					<a class="weidner-link" href="klangmassage" title="Klangmassage hjælper mod tankemylder, stress, søvnproblemer, angst, smerte, manglende energi mm">indre fred</a>,
+					og jeg ser meget frem til at hjælpe dig på din rejse.
 				</p>
 			</div>
 
