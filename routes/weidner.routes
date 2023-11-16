@@ -108,7 +108,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/gong-skåle-header.png" },
-							{ "header": "Gong-bade" }
+							{ "header": "Gong-bad" }
 						]
         },
 				{
