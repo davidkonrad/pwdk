@@ -1,4 +1,3 @@
-
 <main class="mx-auto">
 
 	<section class="front-header">
