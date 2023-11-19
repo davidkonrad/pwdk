@@ -74,14 +74,15 @@ if (count($_GET)) {
 								'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 'kontakt');
 
 	$input = strtolower($_SERVER['REQUEST_URI']);
-	$cinput = explode('?', $input)[0];
-	$cinput = str_replace('/', '', $cinput);
+	$cleaned_input = explode('?', $input)[0];
+	$cleaned_input = str_replace('/', '', $cleaned_input);
 
-	if ($cinput !== $input) {
-		echo '<script>window.location.href = "https://www.pernilleweidner.dk/'.$cinput.'";</script>';
+	if ($cleaned_input !== $input && !in_array($cleaned_input, $pages)) {
+		//echo '<script>console.log("'.$cleaned_input.")</script>';
+		//echo '<script>window.location.href = "https://www.pernilleweidner.dk/'.$cinput.'";</script>';
 	}
 	
-	if (!in_array($cinput, $pages)) {
+	if (!in_array($cleaned_input, $pages)) {
 		$best = -1;
 		$suggest = '';
 		foreach ($pages as $word) {
