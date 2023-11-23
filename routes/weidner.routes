@@ -18,7 +18,7 @@
             "meta": "kakao ceremoni",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "image": "images/cacao-boenner.jpg" },
 							{ "header": "Kakao ceremoni" }
 						]
         },
@@ -85,7 +85,7 @@
             "meta": "Formålet med klangmeditation er at skabe en atmosfære af dyb afslapning. Lydene anses for at have beroligende virkninger, der kan hjælpe med at reducere stress, angst og spændinger.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "image": "images/klangmeditation-top.jpg" },
 							{ "header": "Klangmeditation" }
 						]
         },
@@ -107,7 +107,7 @@
             "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/gong-skåle-header.png" },
+							{ "image": "images/nyt-gong-billede.jpg" },
 							{ "header": "Gong-bad" }
 						]
         },
@@ -119,7 +119,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Hvad er Lydhealing" }
+							{ "header": "Lydhealing" }
 						]
         },
 				{
@@ -130,7 +130,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Lydhealing og børn" }
+							{ "header": "Lydhealing" }
 						]
         },
 				{
@@ -141,7 +141,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Lydhealing, stress og angst" }
+							{ "header": "Lydhealing" }
 						]
          }
     ]
