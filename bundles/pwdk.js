@@ -4,7 +4,8 @@ const PW = (function(window, document) {
 	const gebi = (id) => { return document.getElementById(id) }
 
 	const init = function() {
-		gebi('footer-logo').onclick = function() {
+		const logo = gebi('footer-logo')
+		if (logo) logo.onclick = function() {
 			window.scroll({top: 0, left: 0, behavior: 'smooth'});
 		}			
 		initMP()

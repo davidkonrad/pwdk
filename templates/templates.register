@@ -22,7 +22,7 @@
 		{
 			"name" : "weidner",
 			"description": "Pernille Weidner hjemmeside",
-			"include": "weidner/index.php",
+			"include": "weidner/weidner-sub.php",
 			"bundles": "",
 			"head": [
 				{

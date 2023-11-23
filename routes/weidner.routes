@@ -12,17 +12,6 @@
 						]
         },
 				{
-            "route": "klangmassage",
-            "include": "pages\/klangmassage.html",
-            "title": "Klangmassage",
-            "meta": "Klangmassage er en blid massageform, hvor klangskålene bruges både direkte og indirekte på kroppen. Medfører virkelig afslapning og stressreduktion, harmonisering af kroppens celler og frigivelse af spændinger i kroppen",
-		        "template": "weidner",
-						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Klangmassage" }
-						]
-        },
-				{
             "route": "kakao-ceremoni",
             "include": "pages\/kakao-ceremoni.html",
             "title": "Kakao ceremoni",
@@ -79,7 +68,18 @@
 						]
         },
 				{
-            "route": "klangmeditation",
+            "route": "klang-massage",
+            "include": "pages\/klangmassage.html",
+            "title": "Klangmassage",
+            "meta": "Klangmassage er en blid massageform, hvor klangskålene bruges både direkte og indirekte på kroppen. Medfører virkelig afslapning og stressreduktion, harmonisering af kroppens celler og frigivelse af spændinger i kroppen",
+		        "template": "weidner",
+						"properties": [
+							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "header": "Klangmassage" }
+						]
+        },
+				{
+            "route": "klang-meditation",
             "include": "pages\/klangmeditation.html",
             "title": "Klangmeditation",
             "meta": "Formålet med klangmeditation er at skabe en atmosfære af dyb afslapning. Lydene anses for at have beroligende virkninger, der kan hjælpe med at reducere stress, angst og spændinger.",
