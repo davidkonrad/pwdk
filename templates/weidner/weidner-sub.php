@@ -1,3 +1,5 @@
+<?php include 'pages/utils.php'; ?>
+
 <?php
 
 function testActive($link) {
@@ -6,10 +8,11 @@ function testActive($link) {
 	}
 }
 
+/*
 function testLink() {
 	if (!count($_GET)) return;
 	$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 'gong-terapi', 
-								'gong-bad',	'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 'anbefalinger',
+								'gong-bad',	'lydhealing', 'lydhealing-og-boern', 'lydhealing-stress-og-angst', 'anbefalinger',
 								'kontakt', 'om-pernille-weidner');
 
 	$input = strtolower($_SERVER['REQUEST_URI']);
@@ -40,7 +43,8 @@ function testLink() {
 
 	$recommend = $suggest !== '' ? 'Måske mente du <a href="'.$suggest.'" class="text-weidner">/'.$suggest.'</a>?' : false;
 	return $recommend;
-}		
+}
+*/		
 ?>	
 
 <main class="mx-auto">
@@ -100,7 +104,7 @@ echo '</header>';
 					</a>
 					<div class="dropdown-menu weidner-dropdown" aria-labelledby="lydhealing-dropdown">
 						<a class="dropdown-item" href="lydhealing" title="Læs mere om hvad Lydhealing egentlig er">Hvad er lydhealing</a>
-						<a class="dropdown-item" href="lydhealing-til-boern" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
+						<a class="dropdown-item" href="lydhealing-og-boern" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
 						<a class="dropdown-item" href="lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing stress og angst</a>
 					</div>
 				</li>
@@ -130,6 +134,8 @@ echo '</header>';
 	</nav>
 
 <?php
+Utils::isURLValid();
+/*
 $test = testLink();
 //echo ' -'.$test.'-';
 if (isset($test) && $test !== '' && $test !== false) {
@@ -139,6 +145,7 @@ if (isset($test) && $test !== '' && $test !== false) {
 		</div>
 HTML;
 }
+*/
 ?>
 
 	<div class="py-3">

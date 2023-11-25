@@ -1,3 +1,5 @@
+<?php include 'pages/utils.php'; ?>
+
 <main class="mx-auto">
 
 	<section class="front-header">
@@ -57,8 +59,8 @@
 						Klang
 					</a>
 					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="Klangmassage">Klangmassage</a>
-						<a class="dropdown-item" href="Klangmeditation">Klangmeditation</a>
+						<a class="dropdown-item" href="klang-massage">Klangmassage</a>
+						<a class="dropdown-item" href="klang-meditation">Klangmeditation</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -69,8 +71,11 @@
 	</nav>
 
 <?php
+Utils::isURLValid();
+
+/*
 if (count($_GET)) {
-	$pages = array('klangmassage', 'kakao-ceremoni', 'psykoterapi', 'klangmeditation', 'gong-terapi', 'gong-bad',
+	$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 'gong-terapi', 'gong-bad',
 								'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 'kontakt');
 
 	$input = strtolower($_SERVER['REQUEST_URI']);
@@ -100,6 +105,7 @@ if (count($_GET)) {
 HTML;
 	}
 }
+*/
 ?>
 
 	<div class="py-3">
