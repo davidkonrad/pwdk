@@ -1,16 +1,5 @@
 {
     "routes": [
-        {
-            "route": "samtale-terapi",
-            "include": "pages\/samtale-terapi.html",
-            "title": "Samtale-terapi",
-            "meta": "Samtale-terapi",
-		        "template": "weidner",
-						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Samtale-terapi" }
-						]
-        },
 				{
             "route": "kakao-ceremoni",
             "include": "pages\/kakao-ceremoni.html",
@@ -29,8 +18,9 @@
             "meta": "Gestalt-terapi er en oplevelsesorienteret, fænomenologisk psykoterapi, hvor vi beskæftiger os med det, som betyder noget i dit liv – her og nu",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Psykoterapi" }
+							{ "image": "images/psykoterapi.jpg" },
+							{ "header": "Psykoterapi" },
+							{ "hide-title": "true" }
 						]
         },
 				{

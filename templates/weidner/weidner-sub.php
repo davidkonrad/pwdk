@@ -7,7 +7,7 @@ function testActive($link) {
 }
 
 function testLink() {
-	if (!count($_GET)) return
+	if (!count($_GET)) return;
 	$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 'gong-terapi', 'gong-bad',
 								'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 'kontakt');
 
@@ -23,9 +23,9 @@ function testLink() {
 		//echo '<script>window.location.href = "https://www.pernilleweidner.dk/'.$cleaned_input.'";</script>';
 	}
 	
+	$suggest = '';
 	if (!in_array($cleaned_input, $pages)) {
 		$best = -1;
-		$suggest = '';
 		foreach ($pages as $word) {
 			$s = similar_text($word, $input);
 			if ($s > $best) {
@@ -34,6 +34,8 @@ function testLink() {
 			}
 		}
 	}
+
+	//echo 'X '.$word;
 
 	$recommend = $suggest !== '' ? 'Måske mente du <a href="'.$suggest.'" class="text-weidner">/'.$suggest.'</a>?' : false;
 	return $recommend;
@@ -49,8 +51,10 @@ function testLink() {
 		<h1>Psykoterapi og Lydhealing</h1>
 
 <?php
-echo '<header style="background: url('.$this->getProp('image').');background-size: cover;hewight:13rem;min-height:13rem;">';
-echo '<h2 class="display-1 weidner-underside">'.$this->getProp('header').'</h2>';
+echo '<header class="weidner-underside-billede" style="background: url('.$this->getProp('image').');background-size:cover;background-repeat:no-repeat;">';
+if (!$this->getProp('hide-title')) {
+	echo '<h2 class="display-1 weidner-underside">'.$this->getProp('header').'</h2>';
+}
 echo '</header>';
 ?>
 
@@ -126,7 +130,8 @@ echo '</header>';
 
 <?php
 $test = testLink();
-if ($test !== false) {
+//echo ' -'.$test.'-';
+if (isset($test) && $test !== '' && $test !== false) {
 	echo <<<HTML
 		<div class="alert alert-danger p-4 mr-4 ml-4">
 			<h5 class="albert">Desværre, siden <em class="text-muted">/{$_GET['page']}</em> findes ikke. {$test}</h5>

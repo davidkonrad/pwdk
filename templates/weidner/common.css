@@ -56,6 +56,33 @@ h2.weidner-underside {
 	box-shadow: 0px 4px 8px rgb(34, 34, 34, 0.22);
 }
 
+.weidner-underside-billede {
+	height: 18rem;
+	min-height: 18rem;
+}
+@media (min-width: 512px) { 
+	.weidner-underside-billede {
+		object-fit: scale-down;
+		height: 10rem;
+		min-height: 10rem;
+	}
+}
+@media (min-width: 912px) { 
+	.weidner-underside-billede {
+		object-fit: scale-down;
+		height: 16rem;
+		min-height: 16rem;
+	}
+}
+/*
+@media (max-width: 913px) { 
+	.weidner-underside-billede {
+		height: 8rem;
+		min-height: 8rem;
+	}
+}
+*/
+
 /* ny header */
 .front-header {
 	background: #fff;
