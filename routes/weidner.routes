@@ -108,8 +108,9 @@
             "meta": "En lydhealingssession kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
-							{ "header": "Lydhealing" }
+							{ "image": "images/lydhealing-top.jpg" },
+							{ "header": "Lydhealing" },
+							{ "hide-title": "true" }
 						]
         },
 				{
