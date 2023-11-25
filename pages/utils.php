@@ -4,8 +4,9 @@ class Utils {
 
 	public static function isURLValid() {
 		if (count($_GET)) {
-			$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 'gong-terapi', 'gong-bad',
-								'lydhealing', 'lydhealing-og-boern', 'lydhealing-stress-og-angst', 'kontakt', 'anbefalinger');
+			$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 
+								'gong-terapi', 'gong-bad', 'lydhealing', 'lydhealing-og-boern', 'lydhealing-stress-og-angst', 
+								'kontakt', 'anbefalinger', 'om-pernille-weidner');
 
 			$input = strtolower($_SERVER['REQUEST_URI']);
 			$cleaned_input = explode('?', $input)[0];

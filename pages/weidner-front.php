@@ -41,8 +41,8 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="lydhealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
 						<a class="dropdown-item" href="lydhealing" title="Læs mere om hvad Lydhealing egentlig er">Hvad er lydhealing</a>
-						<a class="dropdown-item" href="Lydhealing-til-boern" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
-						<a class="dropdown-item" href="Lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing stress og angst</a>
+						<a class="dropdown-item" href="lydhealing-og-boern" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
+						<a class="dropdown-item" href="lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing stress og angst</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -132,7 +132,7 @@ HTML;
 				</p>
 				<p>
 					Jeg vil glæde mig til, sammen med dig, at udforske veje til 
-					<a class="weidner-link" href="klangmassage" title="Klangmassage hjælper mod tankemylder, stress, søvnproblemer, angst, smerte, manglende energi mm">indre fred</a>,
+					<a class="weidner-link" href="klang-massage" title="Klangmassage hjælper mod tankemylder, stress, søvnproblemer, angst, smerte, manglende energi mm">indre fred</a>,
 					og jeg ser meget frem til at hjælpe dig på din rejse.
 				</p>
 			</div>
