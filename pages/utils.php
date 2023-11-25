@@ -13,13 +13,6 @@ class Utils {
 			$cleaned_input = str_replace('/', '', $cleaned_input);
 			$cleaned_input = str_replace('pwdk', '', $cleaned_input);
 
-			//echo $cleaned_input;
-
-			if ($cleaned_input !== $input && !in_array($cleaned_input, $pages)) {
-				//echo '<script>console.log("'.$cleaned_input.")</script>';
-				//echo '<script>window.location.href = "https://www.pernilleweidner.dk/'.$cinput.'";</script>';
-			}
-	
 			if (!in_array($cleaned_input, $pages)) {
 				$best = -1;
 				$suggest = '';
@@ -40,6 +33,13 @@ HTML;
 			}
 		}
 	}
+
+	public static function testActive($link) {
+		if (strpos($_GET['page'], $link) !== false) {
+		 echo 'active';
+		}
+	}
+
 }
 
 
