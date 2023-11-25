@@ -8,8 +8,9 @@ function testActive($link) {
 
 function testLink() {
 	if (!count($_GET)) return;
-	$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 'gong-terapi', 'gong-bad',
-								'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 'kontakt');
+	$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 'gong-terapi', 
+								'gong-bad',	'lydhealing', 'lydhealing-til-boern', 'lydhealing-stress-og-angst', 
+								'kontakt', 'om-pernille-weidner');
 
 	$input = strtolower($_SERVER['REQUEST_URI']);
 	$cleaned_input = explode('?', $input)[0];
