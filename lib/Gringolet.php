@@ -94,6 +94,8 @@ class _RPath {
 }	
 
 /* router */
+
+#[AllowDynamicProperties]
 class Gringolet extends _RPath {
 	private $case = false;
 	private $routes = array();

@@ -163,6 +163,8 @@ abstract class APage extends AElement implements IPage {
 /*****************************
   Page
 ******************************/
+
+#[AllowDynamicProperties]
 class Page extends APage { 
 
 	public static function create($path = '', $pre = '', $title = '', $meta = '', $head = '', $body = '', $footer = '') {

@@ -7,9 +7,9 @@ include 'Gingalain.php';
 define('EXCLUDE_PATH', '/pwdk\//');
 define('APP_NAME', 'Gawain');
 define('LOCALHOST', 'http://localhost/pwdk/');
-define('SERVER', 'https://example.com/');
+define('SERVER', 'https://www.pernilleweidner.dk/');
 
-
+#[AllowDynamicProperties]
 class Gawain extends Escalibor {
 	private $bundles = null;
 	private $valid_routes_files = null;
@@ -223,7 +223,8 @@ class Gawain extends Escalibor {
 	}
 
 	public function baseName() {
-		return $this->isLocalhost() ? $this->localhost : $this->server;
+		//return $this->isLocalhost() ? $this->localhost : $this->server;
+		return $this->isLocalhost() ? LOCALHOST : SERVER;
 	}
 
 	public function renderBundles($last = null) {
