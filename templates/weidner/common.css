@@ -220,6 +220,12 @@ figure {
 	cursor: zoom-in;
 	margin-inline-start: 0 !important;
 }
+figcaption {
+	font-size: small;
+	background-color: #ebebeb;
+	padding-left: .5rem;
+}
+
 .mfp-bg {
 	background: #ebebeb;
 	opacity: 0.6;
