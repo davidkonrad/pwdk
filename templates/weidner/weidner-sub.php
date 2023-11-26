@@ -88,10 +88,10 @@ $this->body();
 <?php
 if (!$this->hasProp('no-pw-footer')) {
 echo <<<FOOT
-<footer class="text-muted mt-sm-4">
+<footer class="text-muted mt-4">
 	<div class="container">
-		<figure>
-			<img style="height:100px;" src="images/pernille-weidner-i-haven.jpg" data-mfp-src="assets/pernille-weidner-i-haven-lg.jpg" class="img-thumbnail float-left mr-sm-2" alt="Pernille Weidner - psykoterapeut">
+		<figure class="mt-sm-4 mt-md-0 pr-2 float-left">
+			<img style="height:100px;" src="images/pernille-weidner-i-haven.jpg" data-mfp-src="images/pernille-weidner-i-haven-lg.jpg" class="img-thumbnail img-fluid" alt="Pernille Weidner - psykoterapeut" title="Pernille Weidner - uddannet pædagog, psykoterapeut mv">
 		</figure>
 		<p class="albert">
 			Jeg er uddannet pædagog, og har tidligere bl.a. arbejdet med unge med diagnoser. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige kurser igennem årene som bl.a. mindfullness instruktør, positiv psykologi vejleder, ernæringskonsulent, fitnessinstruktør og som det nyeste, klangmassage behandler og klangaktør hos Anne Viese.
