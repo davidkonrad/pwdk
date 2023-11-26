@@ -2,7 +2,7 @@
 
 const PW = (function(window, document) {
 	const gebi = (id) => { return document.getElementById(id) }
-	const qsel = (sel) => { return document.querySelector(sel) }
+	const qall = (sel) => { return document.querySelectorAll(sel) }
 
 	const init = function() {
 		const logo = gebi('footer-logo')
@@ -66,14 +66,16 @@ const PW = (function(window, document) {
 
 	const initGong = function() {
 		const gong = gebi('gong-eksempel')
-		const logo = qsel('.pernille-weidner-logo')
-		if (!gong || !logo) return
-		logo.addEventListener('mouseover', function() {
-			gong.play()
-		})
-		logo.addEventListener('mouseleave', function() {
-			gong.pause()
-			gong.currentTime = 0
+		const logos = qall('.pernille-weidner-logo')
+		if (!gong || !logos) return
+		logos.forEach(function(logo) {
+			logo.addEventListener('mouseover', function() {
+				gong.play()
+			})
+			logo.addEventListener('mouseleave', function() {
+				gong.pause()
+				gong.currentTime = 0
+			})
 		})
 	}
 
