@@ -88,6 +88,13 @@ h2.weidner-underside {
 	}
 }
 
+.no-padding-left {
+	padding-left: 0px;
+}
+.no-padding-right {
+	padding-right: 0px;
+}
+
 /*
 @media (min-width: 912px) { 
 	.weidner-underside-billede {
