@@ -5,13 +5,17 @@ const PW = (function(window, document) {
 	const qall = (sel) => { return document.querySelectorAll(sel) }
 
 	const init = function() {
-		const logo = gebi('footer-logo')
-		if (logo) logo.onclick = function() {
-			window.scroll({top: 0, left: 0, behavior: 'smooth'});
-		}			
+		initLogo()	
 		initMP()
 		initNavbar()
 		initGong()
+	}
+
+	const initLogo = function() {
+		const logo = gebi('footer-logo')
+		if (logo) logo.onclick = function() {
+			window.scroll({top: 0, left: 0, behavior: 'smooth'})
+		}		
 	}
 
 	const initMP = function() {
@@ -67,6 +71,7 @@ const PW = (function(window, document) {
 	const initGong = function() {
 		const gong = gebi('gong-eksempel')
 		const logos = qall('.pernille-weidner-logo')
+		const gongtest = gebi('gong-lyd-proeve')
 		if (!gong || !logos) return
 		logos.forEach(function(logo) {
 			logo.addEventListener('mouseover', function() {
@@ -77,6 +82,7 @@ const PW = (function(window, document) {
 				gong.currentTime = 0
 			})
 		})
+		if (gongtest) gongtest.setAttribute('src', gong.getAttribute('src'))
 	}
 
 	return {
