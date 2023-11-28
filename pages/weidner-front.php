@@ -8,7 +8,10 @@
 		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="Gong skåle">
+					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="Klangskåle">
+				</div>
+				<div class="carousel-item">
+					<img src="images/mange-gonger-karrusel.png" class="d-block w-100" alt="Gongbad og gongterapi">
 				</div>
 				<div class="carousel-item">
 					<img src="images/klangmassage-ryg-carousel.jpg" class="d-block w-100" alt="Lydhealing">
