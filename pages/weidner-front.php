@@ -22,12 +22,12 @@ include 'pages/utils.php';
 		</div>
 	</section>
 
-<?php
-Utils::isURLValid();
-?>
-
 <?php 
 include 'pages/menu.php'; 
+?>
+
+<?php
+Utils::isURLValid();
 ?>
 
 	<div class="py-3">

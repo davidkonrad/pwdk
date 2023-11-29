@@ -26,6 +26,7 @@ class Utils {
 				
 				$recommend = $suggest !== '' ? 'Måske mente du <a href="'.$suggest.'" class="text-weidner">/'.$suggest.'</a>?' : '';
 				echo <<<HTML
+				<br>
 				<div class="alert alert-danger p-4 mr-4 ml-4">
 					<h5 class="albert">Desværre, siden <em class="text-muted">/{$_GET['page']}</em> findes ikke. {$recommend}</h5>
 				</div>
