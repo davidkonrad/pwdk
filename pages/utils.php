@@ -34,9 +34,12 @@ HTML;
 		}
 	}
 
-	public static function testActive($link) {
-		if (strpos($_GET['page'], $link) !== false) {
-		 echo 'active';
+	public static function testActive($link = '') {
+		$page = isset($_GET['page']) ? $_GET['page'] : false;
+		if ($page === false && $link === '') {
+			echo 'active';
+		} else if ($page !== false && $link !== '' && strpos($page, $link) !== false) {
+			echo 'active';
 		}
 	}
 

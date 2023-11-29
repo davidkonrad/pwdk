@@ -1,4 +1,6 @@
-<?php include 'pages/utils.php'; ?>
+<?php 
+include 'pages/utils.php'; 
+?>
 
 <main class="mx-auto">
 
@@ -13,11 +15,6 @@
 				<div class="carousel-item">
 					<img src="images/mange-gonger-karrusel.png" class="d-block w-100" alt="Gongbad og gongterapi">
 				</div>
-<!--
-				<div class="carousel-item">
-					<img src="images/klangmassage-ryg-carousel.jpg" class="d-block w-100" alt="Lydhealing">
-				</div>
--->
 				<div class="carousel-item">
 					<img src="images/klangmassage-carousel.jpg" class="d-block w-100" alt="Klangmassage">
 				</div>
@@ -25,52 +22,12 @@
 		</div>
 	</section>
 
-	<nav class="navbar navbar-expand-md navbar-light bg-light">
-		<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="https://www.pernilleweidner.dk">Hjem <span class="sr-only">Hjem</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="psykoterapi">Psykoterapi</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link" href="lydhealing" id="lydhealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Lydhealing
-					</a>
-					<div class="dropdown-menu" aria-labelledby="lydhealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="lydhealing" title="Læs mere om hvad Lydhealing egentlig er">Hvad er lydhealing</a>
-						<a class="dropdown-item" href="lydhealing-og-boern" title="Læs mere om hvordan lydhealing kan have positiv indflydelse på børn">Lydhealing til børn</a>
-						<a class="dropdown-item" href="lydhealing-stress-og-angst" title="Om hvordan Lydhealing kan forebygge stress og angst">Lydhealing stress og angst</a>
-					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link" href="#" id="gong-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Gong
-					</a>
-					<div class="dropdown-menu" aria-labelledby="gong-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="gong-terapi" title="Den kraftfulde lyd fra gongerne, kombineret med deres dybe vibrationer, indbyder til en unik og transformerende oplevelse">Gong terapi</a>
-						<a class="dropdown-item" href="gong-bad" title="Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst">Gong bad</a>
-					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link" href="#" id="klanghealing-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Klang
-					</a>
-					<div class="dropdown-menu" aria-labelledby="klanghealing-dropdown" style="background-color:#f8f9fa;border:0;padding-top:0;margin-top:0;">
-						<a class="dropdown-item" href="klang-massage">Klangmassage</a>
-						<a class="dropdown-item" href="klang-meditation">Klangmeditation</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="kakao-ceremoni">Kakaoceremoni</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-
 <?php
 Utils::isURLValid();
+?>
+
+<?php 
+include 'pages/menu.php'; 
 ?>
 
 	<div class="py-3">
