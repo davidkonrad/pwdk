@@ -39,10 +39,13 @@ echo <<<FOOT
 <footer class="text-muted mt-4">
 	<div class="container">
 		<figure class="mt-sm-4 mt-md-0 pr-2 float-left">
-			<img style="height:100px;" src="images/pernille-weidner-i-haven.jpg" data-mfp-src="images/pernille-weidner-i-haven-lg.jpg" class="img-thumbnail img-fluid" alt="Pernille Weidner - psykoterapeut" title="Pernille Weidner - uddannet pædagog, psykoterapeut mv">
+			<img style="height:150px;" src="images/pernille-weidner-i-haven.jpg" data-mfp-src="images/pernille-weidner-i-haven-lg.jpg" class="img-thumbnail img-fluid" alt="Pernille Weidner - psykoterapeut" title="Pernille Weidner - uddannet pædagog, psykoterapeut mv">
 		</figure>
 		<p class="albert">
-			Jeg er uddannet pædagog, og har tidligere bl.a. arbejdet med unge med diagnoser. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige kurser igennem årene som bl.a. mindfullness instruktør, positiv psykologi vejleder, ernæringskonsulent, fitnessinstruktør og som det nyeste, klangmassage behandler og klangaktør hos Anne Viese.
+			Jeg er uddannet pædagog og arbejder deltid på et socialpsykiatrisk bosted. Tidligere har jeg bl.a. arbejdet 
+			som pædagog i en SFO hvor jeg også havde timer i skolen. Jeg har ligeledes arbejdet på et kvindekrise-center og et 
+			døgntilbud for unge. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige kurser igennem årene som bl.a. mindfullness instruktør, positiv psykologi vejleder, ernæringskonsulent, 
+			fitnessinstruktør og som det nyeste, klangmassage-behandler og klangaktør hos Anne Viese.
 			<a href="om-pernille-weidner" class="text-dark font-italic" title="Læs mere om Pernille Weidner">læs mere&hellip;</a>
 		</p>
 	</div>
