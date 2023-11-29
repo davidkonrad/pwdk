@@ -11,10 +11,24 @@ include 'pages/utils.php';
 		<h1>Psykoterapi og Lydhealing</h1>
 
 <?php
-echo '<header class="weidner-underside-billede" style="background: url('.$this->getProp('image').');background-size:cover;background-repeat:no-repeat;">';
+if ($this->getProp('image-size')) {
+	$class = 'weidner-underside-billede-'.$this->getProp('image-size');
+} else {
+	$class = 'weidner-underside-billede-sm';
+}
+if ($this->getProp('image-desc')) {
+	$title = $this->getProp('image-desc');
+} else {
+	$title = 'Pernille Weidner, psykoterapi og lydhealing';
+}
+//$class = isset($this->getProp('image-size')) ? 'weidner-underside-billede-'.$this->getProp('image-size') : 'weidner-underside-billede-sm';
+//$title = isset($this->getProp('image-desc')) ? $this->getProp('image-desc') : 'Pernille Weidner';
+echo '<header class="weidner-underside-billede '.$class.'" style="background-image: url('.$this->getProp('image').');" title="'.$title.'">';
+/*
 if (!$this->getProp('hide-title')) {
 	echo '<h2 class="display-1 weidner-underside">'.$this->getProp('header').'</h2>';
 }
+*/
 echo '</header>';
 ?>
 	</section>

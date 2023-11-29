@@ -76,10 +76,31 @@ h2.weidner-underside {
 }
 
 .weidner-underside-billede {
-	height: 28rem;
-	min-height: 28rem;
 	object-fit: scale-down;
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;     
 }
+.weidner-underside-billede-sm {
+	height: 20rem;
+}
+.weidner-underside-billede-lg {
+	height: 36rem;
+}
+
+@media (max-width: 512px) { 
+	.weidner-underside-billede {
+		object-fit: scale-down;
+		height: 9rem;
+	}
+	.weidner-underside-billede-lg {
+		object-fit: scale-down;
+		height: 15rem;
+	}
+}
+
+
+/*
 @media (max-width: 512px) { 
 	.weidner-underside-billede {
 		object-fit: scale-down;
@@ -87,6 +108,7 @@ h2.weidner-underside {
 		min-height: 14rem;
 	}
 }
+*/
 
 .no-padding-left {
 	padding-left: 0px;
