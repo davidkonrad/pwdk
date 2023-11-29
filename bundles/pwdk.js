@@ -1,7 +1,8 @@
 "use strict";
 
-const PW = (function(window, document) {
+const Weidner = (function(window, document) {
 	const gebi = (id) => { return document.getElementById(id) }
+	const qsel = (sel) => { return document.querySelector(sel) }
 	const qall = (sel) => { return document.querySelectorAll(sel) }
 
 	const init = function() {
@@ -9,6 +10,7 @@ const PW = (function(window, document) {
 		initMP()
 		initNavbar()
 		initGong()
+		initVideo()
 	}
 
 	const initLogo = function() {
@@ -85,6 +87,15 @@ const PW = (function(window, document) {
 		if (gongtest) gongtest.setAttribute('src', gong.getAttribute('src'))
 	}
 
+	const initVideo = function() {
+		const video = qsel('video')
+		if (video) {
+			video.onclick = function() {
+				this.play()
+			}
+		}
+	}
+
 	return {
 		init
 	}
@@ -92,6 +103,6 @@ const PW = (function(window, document) {
 })(window, document);
 
 window.addEventListener('DOMContentLoaded', function() {
-	PW.init()
+	Weidner.init()
 })
 

@@ -43,7 +43,7 @@ $App->renderBundlesLast();
 <script src="bundles/bs46/js/bootstrap.bundle.min.js"></script>
 <script src="bundles/magnific/jquery.magnific-popup.min.js"></script>
 <script src="bundles/pwdk.js"></script>
-<audio id="gong-eksempel" src="assets/gong-eksempel.ogg" />
+<audio id="gong-eksempel" src="assets/gong-eksempel.ogg"></audio>
 </body>
 </html>
 

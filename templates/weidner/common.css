@@ -88,6 +88,18 @@ h2.weidner-underside {
 	height: 36rem;
 }
 
+video {
+	width: 200px;
+	display: block;
+	cursor: pointer;	
+	background-color: #000;
+}
+@media (max-width: 768px) { 
+	video {
+		width: 100%;
+	}
+}
+
 @media (max-width: 512px) { 
 	.weidner-underside-billede {
 		object-fit: scale-down;
