@@ -45,7 +45,7 @@
 						"properties": [
 							{ "image": "images/revealing-your-feelings.jpeg" },
 							{ "header": "Kontakt" },
-							{ "image-size": "sm" }
+							{ "image-size": "lg" }
 						]
 				},
 				{
