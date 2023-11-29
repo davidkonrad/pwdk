@@ -21,15 +21,7 @@ if ($this->getProp('image-desc')) {
 } else {
 	$title = 'Pernille Weidner, psykoterapi og lydhealing';
 }
-//$class = isset($this->getProp('image-size')) ? 'weidner-underside-billede-'.$this->getProp('image-size') : 'weidner-underside-billede-sm';
-//$title = isset($this->getProp('image-desc')) ? $this->getProp('image-desc') : 'Pernille Weidner';
-echo '<header class="weidner-underside-billede '.$class.'" style="background-image: url('.$this->getProp('image').');" title="'.$title.'">';
-/*
-if (!$this->getProp('hide-title')) {
-	echo '<h2 class="display-1 weidner-underside">'.$this->getProp('header').'</h2>';
-}
-*/
-echo '</header>';
+echo '<header class="weidner-underside-billede '.$class.'" style="background-image: url('.$this->getProp('image').');" title="'.$title.'"></header>';
 ?>
 	</section>
 <?php 
@@ -59,7 +51,7 @@ echo <<<FOOT
 			Jeg er uddannet pædagog og arbejder deltid på et socialpsykiatrisk bosted. Tidligere har jeg bl.a. arbejdet 
 			som pædagog i en SFO hvor jeg også havde timer i skolen. Jeg har ligeledes arbejdet på et kvindekrise-center og et 
 			døgntilbud for unge. I 2020 blev jeg uddannet psykoterapeut fra Københavns Gestalt Institut. Derudover har jeg taget forskellige kurser igennem årene som bl.a. mindfullness instruktør, positiv psykologi vejleder, ernæringskonsulent, 
-			fitnessinstruktør og som det nyeste, klangmassage-behandler og klangaktør hos Anne Viese.
+			fitnessinstruktør og som det nyeste, klangmassage-behandler og klangaktør
 			<a href="om-pernille-weidner" class="text-dark font-italic" title="Læs mere om Pernille Weidner">læs mere&hellip;</a>
 		</p>
 	</div>
