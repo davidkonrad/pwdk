@@ -88,6 +88,16 @@ h2.weidner-underside {
 	height: 30rem;
 }
 
+/* responsiv ul */
+ul.responsive {
+	columns: 2;
+}
+@media (max-width: 768px) { 
+	ul.responsive {
+		columns: 1;
+	}
+}
+
 video {
 	width: 200px;
 	display: block;
