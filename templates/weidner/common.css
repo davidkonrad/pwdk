@@ -305,7 +305,7 @@ img.mfp-img {
   font-family: Georgia, serif;
   content: "“";
   position: absolute;
-  top: 10px;
+  top: -15px;
   left: 10px;
   font-size: 5em;
 	color: #ece6dc;
@@ -318,7 +318,7 @@ img.mfp-img {
   bottom: -90px;
   line-height: 100px;
   right: -2px;
-  font-size: 25em;
+  font-size: 16rem;
 	color: #ece6dc;
   font-weight: normal;
 }
