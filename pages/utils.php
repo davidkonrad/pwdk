@@ -14,6 +14,7 @@ class Utils {
 			$cleaned_input = str_replace('pwdk', '', $cleaned_input);
 
 			if (!in_array($cleaned_input, $pages)) {
+				file_put_contents('log/404.log', $input.PHP_EOL, FILE_APPEND);
 				$best = -1;
 				$suggest = '';
 				foreach ($pages as $word) {
