@@ -31,7 +31,7 @@
             "meta": "Om Pernille Weidner",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "image": "images/om-pernille-weidner-top.png" },
 							{ "header": "Om Pernille Weidner" },
 							{ "no-pw-footer": "true" }
 						]
