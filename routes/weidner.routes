@@ -112,7 +112,8 @@
             "meta": "Lydhealing kan være meget gavnligt for børn, da det kan hjælpe med at skabe følelsesmæssig balance og velvære.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "image": "images/lydhealing-boern-lg.png" },
+							{ "image-size": "lg" },
 							{ "header": "Lydhealing" }
 						]
         },
