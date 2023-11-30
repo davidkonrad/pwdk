@@ -124,7 +124,8 @@
             "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "image": "images/lydhealing-stress-og-angst.png" },
+							{ "image-size": "lg" },
 							{ "header": "Lydhealing" }
 						]
          }
