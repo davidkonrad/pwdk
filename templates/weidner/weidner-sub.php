@@ -1,15 +1,12 @@
 <?php 
 include 'pages/utils.php'; 
 ?>
-
 <main class="mx-auto">
-
 	<section class="front-header">
 		<a href="https://www.pernilleweidner.dk">
-			<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
+			<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Livets hjul" alt="Livets hjul">
 		</a>
 		<h1>Psykoterapi og Lydhealing</h1>
-
 <?php
 if ($this->getProp('image-size')) {
 	$class = 'weidner-underside-billede-'.$this->getProp('image-size');
@@ -27,7 +24,6 @@ echo '<header class="weidner-underside-billede '.$class.'" style="background-ima
 <?php 
 include 'pages/menu.php'; 
 ?>
-
 <?php
 Utils::isURLValid();
 ?>
@@ -62,7 +58,6 @@ FOOT;
 ?>
 	</div>
 </main>
-
 <?php
 include('pages/footer.html');
 ?>

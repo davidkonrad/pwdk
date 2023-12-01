@@ -5,7 +5,7 @@ include 'pages/utils.php';
 <main class="mx-auto">
 
 	<section class="front-header">
-		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="assets/pernille-weidner.png" title="Livets hjul" alt="Livets hjul">
+		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Livets hjul" alt="Livets hjul">
 		<h1>Psykoterapi og Lydhealing</h1>
 		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
@@ -13,7 +13,7 @@ include 'pages/utils.php';
 					<img src="images/gong-skåle-md.jpg" class="d-block w-100" alt="Klangskåle">
 				</div>
 				<div class="carousel-item">
-					<img src="images/mange-gonger-karrusel.png" class="d-block w-100" alt="Gongbad og gongterapi">
+					<img src="images/mange-gonger-karrusel.webp" class="d-block w-100" alt="Gongbad og gongterapi">
 				</div>
 				<div class="carousel-item">
 					<img src="images/lydhealing-og-boern-md.webp" class="d-block w-100" alt="Lydhealing">
