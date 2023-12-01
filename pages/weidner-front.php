@@ -1,11 +1,13 @@
 <?php 
 include 'pages/utils.php'; 
 ?>
-
 <main class="mx-auto">
-
 	<section class="front-header">
-		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Livets hjul" alt="Livets hjul">
+		<header class="d-flex justify-content-between pt-1">
+			<a href="mailto:info@pernilleweidner.dk" class="ml-2 text-weidner" title="Skriv email til Pernille" aria-label="Skriv til Pernille Weidner">info@pernilleweidner.dk</a>
+			<a href="tel:26814034" class="mr-2 text-weidner" title="Klik / tap for at ringe op ..." aria-label="Ring til Pernille Weidner">(+45) 26 81 40 34</a>
+		</header>
+		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Gong-bad, gong-terapi, klangmessage og psykoterapi" Livets hjul" alt="Livets hjul">
 		<h1>Psykoterapi og Lydhealing</h1>
 		<div id="weidner-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">

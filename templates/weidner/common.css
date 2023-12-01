@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, .display-1, .display-2, .display-3, .display-4 {
 .text-weidner {
 	color: #82714e;
 }
+a.text-weidner:hover {
+	color: #C2B280;
+	text-decoration: none;
+}
+		
 
 a.weidner-link {
 	color: #82714e;

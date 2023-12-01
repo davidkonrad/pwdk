@@ -82,10 +82,6 @@ const Weidner = (function(window, document) {
 				gong.currentTime = 0
 			}
 		}
-		const stop = function() {
-			gong.pause()
-			gong.currentTime = 0
-		}
 		logos.forEach(function(logo) {
 			logo.addEventListener('mouseover', sound)
 			logo.addEventListener('mouseleave', sound)
