@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, .display-1, .display-2, .display-3, .display-4 {
 	font-family: albert;
 }
 
+.arsenal-bold {
+	font-family: arsenal-bold;
+}
+
 .text-weidner {
 	color: #82714e;
 }
