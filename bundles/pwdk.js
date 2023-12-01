@@ -73,7 +73,7 @@ const Weidner = (function(window, document) {
 	const initGong = function() {
 		const gong = gebi('gong-eksempel')
 		const logos = qall('.pernille-weidner-logo')
-		const gongtest = gebi('gong-lyd-proeve')
+		//const gongtest = gebi('gong-lyd-proeve')
 		if (!gong || !logos) return
 		logos.forEach(function(logo) {
 			logo.addEventListener('mouseover', function() {
@@ -84,7 +84,7 @@ const Weidner = (function(window, document) {
 				gong.currentTime = 0
 			})
 		})
-		if (gongtest) gongtest.setAttribute('src', gong.getAttribute('src'))
+		//if (gongtest) gongtest.setAttribute('src', gong.getAttribute('src'))
 	}
 
 	const initVideo = function() {
