@@ -7,10 +7,10 @@ include 'pages/utils.php';
 			<small><a href="mailto:info@pernilleweidner.dk" class="ml-2 text-weidner" title="Skriv email til Pernille" aria-label="Skriv til Pernille Weidner">info@pernilleweidner.dk</a></small>
 			<small><a href="tel:26814034" class="mr-2 text-weidner" title="Klik / tap for at ringe op ..." aria-label="Ring til Pernille Weidner">(+45) 26 81 40 34</a></small>
 		</header>
-		<a href="https://www.pernilleweidner.dk">
-			<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Livets hjul" alt="Livets hjul">
+		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Livets hjul" alt="Livets hjul">
+		<a href="https://www.pernilleweidner.dk" class="text-decoration-none" title="Gå til forside">
+			<h1>Psykoterapi og Lydhealing</h1>
 		</a>
-		<h1>Psykoterapi og Lydhealing</h1>
 <?php
 if ($this->getProp('image-size')) {
 	$class = 'weidner-underside-billede-'.$this->getProp('image-size');
