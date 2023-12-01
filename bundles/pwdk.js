@@ -73,18 +73,26 @@ const Weidner = (function(window, document) {
 	const initGong = function() {
 		const gong = gebi('gong-eksempel')
 		const logos = qall('.pernille-weidner-logo')
-		//const gongtest = gebi('gong-lyd-proeve')
 		if (!gong || !logos) return
-		logos.forEach(function(logo) {
-			logo.addEventListener('mouseover', function() {
+		const sound = function() {
+			if (gong.paused) {
 				gong.play()
-			})
-			logo.addEventListener('mouseleave', function() {
+			} else {
 				gong.pause()
 				gong.currentTime = 0
-			})
+			}
+		}
+		const stop = function() {
+			gong.pause()
+			gong.currentTime = 0
+		}
+		logos.forEach(function(logo) {
+			logo.addEventListener('mouseover', sound)
+			logo.addEventListener('mouseleave', sound)
+			logo.addEventListener('onclick', sound)
+			logo.addEventListener('ontouchstart', sound)
+			logo.addEventListener('ontouchend', sound)
 		})
-		//if (gongtest) gongtest.setAttribute('src', gong.getAttribute('src'))
 	}
 
 	const initVideo = function() {
