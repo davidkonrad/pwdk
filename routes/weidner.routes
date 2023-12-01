@@ -113,7 +113,7 @@
             "meta": "Lydhealing kan være meget gavnligt for børn, da det kan hjælpe med at skabe følelsesmæssig balance og velvære.",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/lydhealing-og-boern.webp" },
+							{ "image": "images/lydhealing-og-boern-md.webp" },
 							{ "image-size": "lg" },
 							{ "header": "Lydhealing" }
 						]
@@ -125,7 +125,7 @@
             "meta": "Et gongbad er en form for lydterapi, hvor deltagerne oplever lydene og vibrationerne fra gonger i en meditativ og afslappende kontekst",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/lydhealing-stress-og-angst.webp" },
+							{ "image": "images/lydhealing-stress-og-angst-md.webp" },
 							{ "image-size": "lg" },
 							{ "header": "Lydhealing" }
 						]

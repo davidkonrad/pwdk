@@ -1,8 +1,8 @@
 
 #weidner-carousel img {
-	height: 16rem; 
-	min-height: 16rem; 
-	max-height: 16rem; 
+	height: 20rem; 
+	min-height: 20rem; 
+	max-height: 20rem; 
 	width:100%; 
 	object-fit: cover;
 }

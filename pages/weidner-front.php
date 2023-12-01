@@ -16,6 +16,9 @@ include 'pages/utils.php';
 					<img src="images/mange-gonger-karrusel.png" class="d-block w-100" alt="Gongbad og gongterapi">
 				</div>
 				<div class="carousel-item">
+					<img src="images/lydhealing-og-boern-md.webp" class="d-block w-100" alt="Lydhealing">
+				</div>
+				<div class="carousel-item">
 					<img src="images/klangmassage-carousel.jpg" class="d-block w-100" alt="Klangmassage">
 				</div>
 			</div>
