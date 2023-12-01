@@ -31,7 +31,7 @@
             "meta": "Om Pernille Weidner",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/om-pernille-weidner-top.png" },
+							{ "image": "images/om-pernille-weidner-top.webp" },
 							{ "header": "Om Pernille Weidner" },
 							{ "no-pw-footer": "true" }
 						]
