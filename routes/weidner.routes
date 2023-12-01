@@ -96,10 +96,10 @@
             "route": "lydhealing",
             "include": "pages\/hvad-er-lydhealing.html",
             "title": "Hvad er Lydhealing",
-            "meta": "En lydhealingssession kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig.",
+            "meta": "En lydhealings-session kan give dig en pause i fuldkommen ro og nærvær. Du giver din krop mulighed for at restituere, så du bagefter vil opleve dig meget mere groundet' og rolig",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/lydhealing-top.jpg" },
+							{ "image": "images/lydhealing.webp" },
 							{ "header": "Lydhealing" },
 							{ "image-size": "lg" },
 							{ "image-desc": "Lydhealing er for dig der savner ro og nærvær, og at kunne frigøre tanker og bekymringer. Lydhealing kan give dig afspænding og afstresning, samt overskud og energi" }
