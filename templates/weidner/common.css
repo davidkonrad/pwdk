@@ -19,7 +19,6 @@
 	src: url(../../assets/fonts/Albert/AlbertSans-VariableFont_wght.ttf);
 }
 
-
 h1, h2, h3, h4, h5, .display-1, .display-2, .display-3, .display-4 {
 	font-family: tangerine-bold;
 }
@@ -36,7 +35,6 @@ a.text-weidner:hover {
 	text-decoration: none;
 }
 		
-
 a.weidner-link {
 	color: #82714e;
 	font-weight: bold;
@@ -47,15 +45,9 @@ a.weidner-link:hover {
 
 /* 22112023, ny sub page design */
 .alert-weidner {
-	XXXcolor: #82714e;
-	XXXcolor: darkslategray;
-	XXbackground-color: #C2B280;
-	XXXcolor: #C2B280;
 	color: #fbfbfb;
-	background-color: #C2B280; /*#82714e;*/
+	background-color: #C2B280;
 	text-shadow: #685a3e 1px 1px;
-	XXXborder-color: #82714e;
-	XXtext-shadow: 0px 0px 1px orange;
 }
 
 .alert-weidner-light {
@@ -126,41 +118,12 @@ video {
 	}
 }
 
-
-/*
-@media (max-width: 512px) { 
-	.weidner-underside-billede {
-		object-fit: scale-down;
-		height: 14rem;
-		min-height: 14rem;
-	}
-}
-*/
-
 .no-padding-left {
 	padding-left: 0px;
 }
 .no-padding-right {
 	padding-right: 0px;
 }
-
-/*
-@media (min-width: 912px) { 
-	.weidner-underside-billede {
-		object-fit: scale-down;
-		height: 16rem;
-		min-height: 16rem;
-	}
-}
-*/
-/*
-@media (max-width: 913px) { 
-	.weidner-underside-billede {
-		height: 8rem;
-		min-height: 8rem;
-	}
-}
-*/
 
 /* ny header */
 .front-header {
@@ -174,10 +137,12 @@ video {
 	font-weight: bold;
 	color: #82714e;
 }	
+
 .front-header .pernille-weidner-logo {
 	position: relative;
 	top: 2rem;
 }
+
 
 @media (max-width: 912px) { 
 	.front-header h1 {
@@ -215,10 +180,6 @@ nav .navbar-nav li.active a {
 nav .navbar-nav a:hover {
 	opacity: 1;
 }	
-
-a.dropdown-item {
-	XXXfont-weight: bold;
-}
 
 a.dropdown-item:active {
 	color: #fff !important;

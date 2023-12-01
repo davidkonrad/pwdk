@@ -43,22 +43,6 @@ a.navbar-brand h1 {
 	padding-top: .5rem;
 }
 
-.pw-logo {
-	height: 3rem;
-}
-
-span.front-box {
-	font-size: x-large;
-	font-weight: bold;
-	XXcolor: #fff;
-	color: #ece6dc;
-	XXtext-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-	text-shadow: 1px 1px 2px rgba(0,0,0, 0.85);
-	position: absolute;
-	right: 1rem;
-	top: 0px;
-}
-
 /* card */
 a.card {
 	text-align: left;
