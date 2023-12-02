@@ -49,9 +49,10 @@ a.weidner-link:hover {
 
 /* 22112023, ny sub page design */
 .alert-weidner {
-	color: #fbfbfb;
-	background-color: #C2B280;
-	text-shadow: #685a3e 1px 1px;
+	color: #212529; /*#212529; /**/
+	border-color: #dadada; /*#82714e;*/
+	background-color: #ece6dc;
+	XXtext-shadow: #685a3e 1px 1px;
 }
 
 .alert-weidner-light {
