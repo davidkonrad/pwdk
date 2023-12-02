@@ -4,8 +4,8 @@ include 'pages/utils.php';
 <main class="mx-auto">
 	<section class="front-header">
 		<header class="d-flex justify-content-between pt-1">
-			<small><a href="mailto:info@pernilleweidner.dk" class="ml-2 text-weidner" title="Skriv email til Pernille" aria-label="Skriv til Pernille Weidner">info@pernilleweidner.dk</a></small>
-			<small><a href="tel:26814034" class="mr-2 text-weidner" title="Klik / tap for at ringe op ..." aria-label="Ring til Pernille Weidner">(+45) 26 81 40 34</a></small>
+			<small><a href="mailto:info@pernilleweidner.dk" class="ml-2 text-weidner arsenal-bold" title="Skriv email til Pernille" aria-label="Skriv til Pernille Weidner">info@pernilleweidner.dk</a></small>
+			<small><a href="tel:26814034" class="mr-2 text-weidner arsenal-bold" title="Klik / tap for at ringe op ..." aria-label="Ring til Pernille Weidner">(+45) 26 81 40 34</a></small>
 		</header>
 		<img class="pernille-weidner-logo pernille-weidner-logo-lg" src="images/pernille-weidner-logo.webp" title="Livets hjul" alt="Livets hjul">
 		<a href="https://www.pernilleweidner.dk" class="text-decoration-none" title="Gå til forside">
