@@ -4,17 +4,17 @@ class Utils {
 
 	public static function isURLValid() {
 		if (count($_GET)) {
-			$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'klang-meditation', 
-								'gong-terapi', 'gong-bad', 'lydhealing', 'lydhealing-og-boern', 'lydhealing-stress-og-angst', 
-								'kontakt', 'anbefalinger', 'om-pernille-weidner');
+			$pages = array('klang-massage', 'kakao-ceremoni', 'psykoterapi', 'gong-terapi', 
+				'gong-bad', 'lydhealing', 'lydhealing-og-boern', 'lydhealing-stress-og-angst', 
+				'kontakt', 'anbefalinger', 'om-pernille-weidner');
 
-			$input = strtolower($_SERVER['REQUEST_URI']);
-			$cleaned_input = explode('?', $input)[0];
-			$cleaned_input = str_replace('/', '', $cleaned_input);
-			$cleaned_input = str_replace('pwdk', '', $cleaned_input);
+			$org_input = strtolower($_SERVER['REQUEST_URI']);
+			$input = str_replace('/', '', $org_input);
+			$input = str_replace('pwdk', '', $input);
+			$input = explode('?', $input)[0];
 
-			if (!in_array($cleaned_input, $pages)) {
-				file_put_contents('log/404.log', $input.PHP_EOL, FILE_APPEND);
+			if (!in_array($input, $pages)) {
+				file_put_contents('log/404.log', $org_input.PHP_EOL, FILE_APPEND);
 				$best = -1;
 				$suggest = '';
 				foreach ($pages as $word) {
