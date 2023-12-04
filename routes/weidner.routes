@@ -28,7 +28,7 @@
             "route": "om-pernille-weidner",
             "include": "pages\/om-pernille.html",
             "title": "Om Pernille Weidner",
-            "meta": "Om Pernille Weidner",
+            "meta": "Født i 1980, uddannet pædagog og gestalt-terapeut. Arbejdet på kvindekrise-center, socialpsykiatrisk bosted for unge, SFO.  Også Gong og klang",
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/om-pernille-weidner-top.webp" },
