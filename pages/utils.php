@@ -13,7 +13,7 @@ class Utils {
 			$input = str_replace('pwdk', '', $input);
 			$input = explode('?', $input)[0];
 
-			if (!in_array($input, $pages)) {
+			if ($input !== '' && !in_array($input, $pages)) {
 				file_put_contents('log/404.log', $org_input.PHP_EOL, FILE_APPEND);
 				$best = -1;
 				$suggest = '';
@@ -24,14 +24,8 @@ class Utils {
 						$suggest = $word;
 					}
 				}
-				
-				$recommend = $suggest !== '' ? 'Måske mente du <a href="'.$suggest.'" class="text-weidner">/'.$suggest.'</a>?' : '';
-				echo <<<HTML
-				<br>
-				<div class="alert alert-danger p-4 mr-4 ml-4">
-					<h5 class="albert">Desværre, siden <em class="text-muted">/{$_GET['page']}</em> findes ikke. {$recommend}</h5>
-				</div>
-HTML;
+				$redirect = $suggest !== '' ? 'https://www.pernilleweidner.dk/'.$suggest : 'https://www.pernilleweidner.dk';
+				echo '<script>window.location='.$redirect.'</script>';
 			}
 		}
 	}
