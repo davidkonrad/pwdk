@@ -55,7 +55,8 @@
             "meta": "Anbefalinger",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/underside-billede-fra-kakao-ceremoni.png" },
+							{ "image": "images/anbefalinger-mosaik.webp" },
+							{ "image-size": "lg" },
 							{ "header": "Anbefalinger" }
 						]
         },
