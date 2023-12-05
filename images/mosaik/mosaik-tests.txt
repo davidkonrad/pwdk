@@ -1,0 +1,96 @@
+montage klangmassage-fordybelse.jpg klangmassage-carousel.jpg \
+ -geometry 148x148\>+2+2   montage_geom_larger.jpg
+
+montage klangmassage-fordybelse.jpg klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
+ -geometry 248x248\>+2+2   montage_geom_larger.jpg
+
+montage satipo-kakao.webp klangmassage-fordybelse.jpg klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
+ -geometry 248x248\>+2+2   montage_geom_larger.jpg
+
+montage satipo-kakao.webp gong-skåle-md.jpg klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
+ -geometry 248x248\>+2+2   montage_geom_larger.jpg
+
+montage satipo-kakao.webp gong-skåle-md.jpg gong-spil-mov-facade.webp klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
+ -geometry 248x248\>+2+2   montage_geom_larger.jpg
+
+montage satipo-kakao.webp gong-skåle-md.jpg gong-spil-mov-facade.webp klangmassage-carousel.jpg lydhealing-stress-og-angst.webp klangmassage-ryg-md.jpg \
+ -geometry 248x248\>+2+2   montage_geom_larger.jpg
+
+montage satipo-kakao.webp gong-skåle-md.jpg gong-spil-mov-facade.webp klangmassage-carousel.jpg lydhealing-stress-og-angst.webp klangmassage-ryg-md.jpg \
+ -define ashlar:best-fit=true ashlar:canvas.png[1000x1000+5+5] 
+
+ -geometry 248x248\>+2+2 
+
+
+-border 0
+-geometry +0+0 
+
+montage *.* -background none -border 1 -define ashlar:best-fit=true ashlar:canvas.png[1000x600+3+3]
+
+------------------------------
+OK
+
+montage -size 400x400 null: @list.txt null: \
+          -auto-orient  -thumbnail 200x200 \
+          -bordercolor Lavender -background black +polaroid -resize 30% \
+          -gravity center -background none -extent 80x80 \
+          -background SkyBlue -geometry -10+2  -tile x1  polaroid.jpg
+
+-----------------------------
+OK montage -mode concatenate -crop 1000x1000+500+0 *.jpg output/mosaic.jpg
+OK montage -mode concatenate -define ashlar:best-fit=true -crop 500x500+250+0 *.jpg output/mosaic3.jpg
+OK montage -mode concatenate -define ashlar:best-fit=true -crop 300x300+250+100 *.webp output/mosaic4.jpg
+OK montage -mode concatenate -define ashlar:best-fit=true -crop 500x300+250+300 *.png output/mosaic5.jpg
+OK montage -background none -border 1 -mode concatenate -define ashlar:best-fit=true -crop 500x300+250+300 *.png output/mosaic6.jpg
+OK montage @list.txt -background none -border 1 -mode concatenate -define ashlar:best-fit=true -crop 500x300+250+300 output/mosaic7.jpg
+
+montage @list.txt -background none -border 50 -mode concatenate -define ashlar:best-fit=true -crop 500x300+250+300 output/mosaic8.png
+---------------------------------
+
+montage -size 1000x1000 @list.txt 
+          -auto-orient  -thumbnail 400x400 \
+          -bordercolor Lavender -background black +polaroid 
+          -gravity center -background none -extent 180x180 \
+          -background SkyBlue -geometry -10+2  -tile x1  output/polaroid_overlap2.jpg
+------------------------------
+OK! skal have større size
+
+montage -size 400x400 @list.txt \
+          -auto-orient  -thumbnail 200x200 \
+          -bordercolor Lavender -background black +polaroid -resize 30% \
+          -gravity center -background none -extent 80x80 \
+          -background SkyBlue -geometry -10+2  -tile x1  output/polaroid_overlap.jpg
+
+-------------------------------
+montage -size 400x400 @list.txt \
+          -auto-orient  -thumbnail 200x200 \
+          -bordercolor Lavender -background black +polaroid -resize 30% \
+          -gravity center -background none -extent 80x80 \
+          -background SkyBlue -geometry -10+2  -tile x1  output/polaroid_overlap.jpg
+----------------------------
+montage @list.txt -mode concatenate -define ashlar:best-fit=true -crop 500x300+250+300 output/mosaic7.png
+
+OK montage -mode concatenate -define ashlar:best-fit=true -crop 300x300+250+100 @list.txt output/mosaic4.png
+---------------------------------------------------------
+
+montage -mode concatenate -tile 3x -frame 2 -crop 300x300+250+100 @list.txt output/mosaic14.png
+
+OK OK
+----------------------------------
+montage -mode concatenate -tile 5x -frame 1 -gravity west -crop x368+0+0 @list.txt output/mosaic17.png
+----------------------------------
+montage -mode concatenate -tile 5x -frame 1 -gravity center -crop x368+0+0 @list.txt output/mosaic18.png
+
+montage -mode concatenate -tile 5x -frame 1 -gravity center -crop x368+0+0 @list.txt output/mosaic18.png
+
+montage -mode concatenate -tile 4x -frame 1 -gravity center -crop x368+0+0 @list.txt mosaik1.png
+
+montage -mode concatenate -resize "1060x>" -tile 4x -frame 1 -gravity center -crop x468+0+0 @list.txt mosaik2.png
+
+montage -mode concatenate -resize "1060x>" -tile 4x -frame 1 -gravity center -crop x468+0+0 @list.txt mosaik2.png
+
+----------------------------------------------------------
+montage -mode concatenate -resize "860x>" -tile 4x -frame 1 -gravity center -crop x550+0+0 @list.txt mosaik2.png
+
+
+
