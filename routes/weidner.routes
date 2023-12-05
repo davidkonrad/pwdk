@@ -8,7 +8,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/cacao-boenner.jpg" },
-							{ "header": "Kakao ceremoni" },
+							{ "header": "Kakao-ceremonier" },
 							{ "image-size": "sm" }
 						]
         },
@@ -20,7 +20,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/psykoterapi.jpg" },
-							{ "header": "Psykoterapi" },
+							{ "header": "Psykoterapi, uddannet psykoterapeut fra Københavns gestaltinstitut" },
 							{ "image-size": "sm" }
 						]
         },
@@ -44,7 +44,7 @@
 		        "template": "weidner",
 						"properties": [
 							{ "image": "images/revealing-your-feelings.jpeg" },
-							{ "header": "Kontakt" },
+							{ "header": "Kontakt, åbningstider, priser mm." },
 							{ "image-size": "lg" }
 						]
 				},
@@ -57,7 +57,7 @@
 						"properties": [
 							{ "image": "images/anbefalinger-mosaik.webp" },
 							{ "image-size": "lg" },
-							{ "header": "Anbefalinger" }
+							{ "header": "Anbefalinger fra mine skønne klienter" }
 						]
         },
 				{
@@ -116,7 +116,7 @@
 						"properties": [
 							{ "image": "images/lydhealing-og-boern-md.webp" },
 							{ "image-size": "lg" },
-							{ "header": "Lydhealing" }
+							{ "header": "Lydhealing og børn" }
 						]
         },
 				{
@@ -128,7 +128,7 @@
 						"properties": [
 							{ "image": "images/lydhealing-stress-og-angst-md.webp" },
 							{ "image-size": "lg" },
-							{ "header": "Lydhealing" }
+							{ "header": "Hvad kan lydhealing gøre ved stress og angst" }
 						]
          }
     ]
