@@ -45,7 +45,7 @@ echo <<<FOOT
 <footer class="text-muted mt-4">
 	<div class="container">
 		<figure class="mt-3 mt-md-0 pr-2 float-left">
-			<img style="height:150px;" src="images/pernille-weidner-i-haven.jpg" data-mfp-src="images/pernille-weidner-i-haven-lg.jpg" class="img-thumbnail img-fluid" alt="Pernille Weidner - psykoterapeut" title="Pernille Weidner - uddannet pædagog, psykoterapeut mv">
+			<img style="height:150px;" src="images/pernille-weidner-i-haven.webp" data-mfp-src="images/pernille-weidner-i-haven-lg.webp" class="img-thumbnail img-fluid" alt="Pernille Weidner - psykoterapeut" title="Pernille Weidner - uddannet pædagog, psykoterapeut mv">
 		</figure>
 		<p class="albert">
 			Jeg er uddannet pædagog og arbejder deltid på et socialpsykiatrisk bosted. Tidligere har jeg bl.a. arbejdet 
