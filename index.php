@@ -20,7 +20,7 @@ include 'lib/Gawain.php';
 <meta name="description" content="<?php echo $App->meta(); ?>">
 <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/bs46/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="bundles/magnific/magnific-popup.css">
+<meta name="pinterest" content="nopin">
 <meta name="google-site-verification" content="1ZC5iqvCMH0mX_7saG6it6ySFXjfzwNEFHA2yzlf4Q8">
 <?php $App->renderBundles(); ?>
 </head>
@@ -33,6 +33,7 @@ $App->renderBundlesLast();
 <script src="bundles/bs46/js/bootstrap.bundle.min.js"></script>
 <script src="bundles/magnific/jquery.magnific-popup.min.js"></script>
 <script src="bundles/pwdk.js"></script>
+<link rel="stylesheet" type="text/css" href="bundles/magnific/magnific-popup.css">
 <audio id="gong-eksempel" src="assets/gong-eksempel.ogg"></audio>
 </body>
 </html>
