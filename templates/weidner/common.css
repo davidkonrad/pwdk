@@ -294,6 +294,14 @@ img.mfp-img {
   font-weight: normal;
 }
 
+@media (max-width: 640px) {
+	.quote-card:after {
+		bottom: -7rem;
+		line-height: 100px;
+		font-size: 10rem;
+	}
+}
+
 .quote-card-sm cite {
 	opacity: 1;
 	color: #000 !important;
