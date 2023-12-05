@@ -5,6 +5,7 @@ error_reporting(E_ALL);
 ?>
 <?php 
 include 'lib/Gawain.php';
+//include 'pages/utils.php'; 
 ?>
 <!doctype html>
 <html lang="da" translate="no">
@@ -21,6 +22,12 @@ include 'lib/Gawain.php';
 <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="bundles/bs46/css/bootstrap.min.css">
 <meta name="pinterest" content="nopin">
+<meta property="og:locale" content="da_DK">
+<meta property="og:url" content="<?php echo 'https://www.pernilleweidner.dk'.$_SERVER['REQUEST_URI']; ?>">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Psykoterapi Pernille Weidner">
+<meta property="og:image" content="https://www.pernilleweidner.dk/<?php echo $App->getProp('image'); ?>">
+<meta property="og:title" content="<?php echo $App->getProp('header'); ?>">
 <meta name="google-site-verification" content="1ZC5iqvCMH0mX_7saG6it6ySFXjfzwNEFHA2yzlf4Q8">
 <?php $App->renderBundles(); ?>
 </head>

@@ -39,6 +39,11 @@ class Utils {
 		}
 	}
 
+	public static function getImage() {
+		//$this->getProp('image')
+		return $this->getProp('image');
+	}
+
 }
 
 
