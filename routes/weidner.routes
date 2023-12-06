@@ -43,7 +43,7 @@
             "meta": "Kontakt, virksomhedsinfo, sociale medier, priser. Oplev en klangmassage eller kakao-ceremoni, du kommer aldrig til at fortryde det",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/revealing-your-feelings.jpeg" },
+							{ "image": "images/revealing-your-feelings.webp" },
 							{ "header": "Kontakt, åbningstider, priser mm." },
 							{ "image-size": "lg" }
 						]
