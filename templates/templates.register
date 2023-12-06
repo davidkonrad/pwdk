@@ -7,10 +7,6 @@
 			"head": [
 				{
 					"tagtype": "link",
-					"href": "default/alt.css"
-				},
-				{
-					"tagtype": "link",
 					"href": "weidner/common.css"
 				},
 				{
@@ -25,10 +21,6 @@
 			"include": "weidner/weidner-sub.php",
 			"bundles": "",
 			"head": [
-				{
-					"tagtype": "link",
-					"href": "default/alt.css"
-				},
 				{
 					"tagtype": "link",
 					"href": "weidner/common.css"
@@ -47,20 +39,6 @@
 			"head": [{
 				"tagtype": "link",
 				"href": "weidnerfront/style.css"
-			}]
-		},
-		{
-			"name" : "Gawain Admin",
-			"description": "Manage routes, bundles and templates in a GUI tool",
-			"bundles": "Gawain Dialogs",
-			"include": "admin/admin.php",
-			"head": [{
-				"tagtype": "link",
-				"href": "admin/admin.css"
-			}],
-			"last": [{
-				"tagtype": "script",
-				"src": "admin/admin.js"
 			}]
 		}
 	]

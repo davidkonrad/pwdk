@@ -1,3 +1,119 @@
+/* alt.css */
+.btn-raised {
+	font-size: 1.7rem;
+	font-family: albert;
+	transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), transform .4s cubic-bezier(1.25, .8, .25, 1);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26)
+}
+.btn-raised-sm {
+	font-size: 1rem;
+}
+
+.btn-raised:not([disabled]):active,
+.btn-raised:not([disabled]):focus,
+.btn-raised:not([disabled]):hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+	transform: translate3d(0, -1px, 0)
+}
+
+.shadow {
+	overflow: hidden;
+	position: relative;
+	transform: translate3d(0, 0, 0)
+}
+
+.shadow:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	pointer-events: none;
+	background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	transform: scale(10, 10);
+	opacity: 0;
+	transition: transform .5s, opacity 1.5s
+}
+
+.shadow:active:before {
+	transform: scale(0, 0);
+	opacity: .1;
+	transition: 0s
+}
+
+/* btn-weidner */
+.btn-weidner {
+	text-shadow: #82714e 0 1px 2px;
+	background-color: #ece6dc; 
+	transition: background-color .9s;
+	transition-timing-function: ease-out;
+}
+.btn-weidner:hover {
+	background-color: #82714e;
+	color: #fff;
+}
+.btn-weidner:focus,
+.btn-weidner:active {
+	opacity: 5;
+	transition: none;
+}
+
+/* btn-weidner-dark */
+.btn-weidner-dark {
+	text-shadow: #685a3e 2px 2px;
+	background-color: #82714e;
+	transition: background-color .9s;
+	transition-timing-function: ease-out;
+	color: #fff;
+}
+.btn-weidner-dark:hover {
+	text-shadow: none;
+	background-color: #ece6dc; 
+	color: #000;
+}
+.btn-weidner-dark:focus,
+.btn-weidner-dark:active {
+	opacity: 5;
+	transition: none;
+}
+
+/* btn-icon */
+.btn-icon {
+	transition: border-color .9s;
+	transition-timing-function: ease-out;
+	font-weight: 900;
+	box-sizing: border-box;
+}
+.btn-icon:hover, .btn-icon:active {
+	animation: shaking 0.5s infinite;
+}
+@keyframes shaking {
+	0% {transform: rotate(0deg);}
+	20% {transform: rotate(-4deg);}
+	50% {transform: rotate(0deg);}
+	70% {transform: rotate(4deg);}
+	100% {transform: rotate(0deg);}
+}
+
+.instagram {
+	border-radius: 4px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+/* end alt.css */ 
+
 @font-face {
 	font-family: tangerine;
 	src: url(../../assets/fonts/Tangerine/Tangerine-Regular.ttf);
