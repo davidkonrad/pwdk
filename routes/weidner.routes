@@ -55,7 +55,7 @@
             "meta": "Anbefalinger",
 		        "template": "weidner",
 						"properties": [
-							{ "image": "images/anbefalinger-mosaik.webp" },
+							{ "image": "images/anbefalinger-mosaik-ii.webp" },
 							{ "image-size": "lg" },
 							{ "header": "Anbefalinger fra mine skønne klienter" }
 						]

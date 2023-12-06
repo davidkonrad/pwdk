@@ -1,33 +1,4 @@
-montage klangmassage-fordybelse.jpg klangmassage-carousel.jpg \
- -geometry 148x148\>+2+2   montage_geom_larger.jpg
 
-montage klangmassage-fordybelse.jpg klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
- -geometry 248x248\>+2+2   montage_geom_larger.jpg
-
-montage satipo-kakao.webp klangmassage-fordybelse.jpg klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
- -geometry 248x248\>+2+2   montage_geom_larger.jpg
-
-montage satipo-kakao.webp gong-skåle-md.jpg klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
- -geometry 248x248\>+2+2   montage_geom_larger.jpg
-
-montage satipo-kakao.webp gong-skåle-md.jpg gong-spil-mov-facade.webp klangmassage-carousel.jpg lydhealing-stress-og-angst.webp \
- -geometry 248x248\>+2+2   montage_geom_larger.jpg
-
-montage satipo-kakao.webp gong-skåle-md.jpg gong-spil-mov-facade.webp klangmassage-carousel.jpg lydhealing-stress-og-angst.webp klangmassage-ryg-md.jpg \
- -geometry 248x248\>+2+2   montage_geom_larger.jpg
-
-montage satipo-kakao.webp gong-skåle-md.jpg gong-spil-mov-facade.webp klangmassage-carousel.jpg lydhealing-stress-og-angst.webp klangmassage-ryg-md.jpg \
- -define ashlar:best-fit=true ashlar:canvas.png[1000x1000+5+5] 
-
- -geometry 248x248\>+2+2 
-
-
--border 0
--geometry +0+0 
-
-montage *.* -background none -border 1 -define ashlar:best-fit=true ashlar:canvas.png[1000x600+3+3]
-
-------------------------------
 OK
 
 montage -size 400x400 null: @list.txt null: \
@@ -91,6 +62,7 @@ montage -mode concatenate -resize "1060x>" -tile 4x -frame 1 -gravity center -cr
 
 ----------------------------------------------------------
 montage -mode concatenate -resize "860x>" -tile 4x -frame 1 -gravity center -crop x550+0+0 @list.txt mosaik2.png
-
+----------------------------------------------------------
+montage -mode concatenate -resize "860x>" -tile 4x -frame 1 -gravity center -crop x550+0+0 @list.txt mosaik3.png
 
 

@@ -1,12 +1,12 @@
 ../psykoterapi-rum.jpg
-../klangmassage-ryg-lg.jpg
-../mange-gonger-lg.png
-../lydhealing-stress-og-angst.png
+../nyt-gong-billede.jpg
+../satipo-kakao.webp
+../gong-spil-mov-facade.webp
 ../gong-spil-hyggeligt-facade.webp
 ../klangmassage-carousel.jpg
 ../lydhealing.webp
 ../lydhealing-stress-og-angst-md.webp
+../gong-md.png
 ../gong-skåle-md.jpg
 ../lydhealing-boern-lg.png
-../gong-spil-mov-facade.webp
 ../underskrift.jpg
