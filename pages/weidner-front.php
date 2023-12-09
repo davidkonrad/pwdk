@@ -28,15 +28,12 @@ include 'pages/utils.php';
 			</div>
 		</div>
 	</section>
-
 <?php 
 include 'pages/menu.php'; 
 ?>
-
 <?php
 Utils::isURLValid();
 ?>
-
 	<div class="py-3">
 		<div class="container">
 			<div class="pt-sm-1 pl-sm-3 pr-sm-3 pb-sm-3">
