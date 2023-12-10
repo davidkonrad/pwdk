@@ -4,11 +4,13 @@ html, body {
 	font-variant-emoji: emoji;
 }
 
-
 .font-style-normal {
 	font-style: normal !important;
 }
 
+table.table-kontakt td {
+	padding-bottom: .2rem !important;
+}
 
 /* alt.css */
 .btn-raised {
